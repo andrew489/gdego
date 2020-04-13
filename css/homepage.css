@@ -1,0 +1,33 @@
+header.homepage {
+    position: absolute;
+    top:0;
+    z-index: 1;
+    width: 100%;
+}
+#carouselHome {background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));    }
+#carouselHome img { filter: brightness(.5);}
+.carousel .carousel-caption {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.carousel  .carousel-item .carousel-caption {
+    position: absolute;
+    width: 540px;
+    height: 124px;
+    left: 235px;
+    top: 324px;
+    text-align: left;
+}
+.carousel .carousel-caption p { margin-top: 50px}
+.search-pannel {
+    position: relative;
+    padding: 32px;
+    margin-top: -88px;
+    background: #FFFFFF;
+}
+.search-pannel .btn:hover {
+    color:white;
+}

@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Roboto&display=swap');
+body {
+    background: #F1F3F5;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+
+    line-height: 19px;
+}
+h1 {
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+}
+h3 {
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+h4 {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+input[type="text"] {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    border: 0;
+    padding: 8px 16px;
+}
+header .topnav {
+    height: 94px;
+    background: #ffffff;
+}
+header .topbar {
+    height: 60px;
+}
+header .topbar .local {
+    /* mdi:map-marker */
+
+    position: static;
+    width: 24px;
+    height: 24px;
+    color: #847768;
+
+}
+header .topbar .select {
+    color: #847768;
+    font-size: 17px;
+}
+
+header .logo {
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #211D18;
+}
+header .logo span {
+    color: #847768;
+}
+header .mdi {
+   font-size: 24px;
+}
+
+header .search{
+    padding: 8px 16px 8px 45px;
+}
+header .search-icon{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 25px;
+    top: 8px;
+}
+
+header .panel-menu {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #211D18;
+    background: #fefefe;
+}
+header .panel-menu .menu {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+header .panel-menu .menu .menu-icon {
+    width: 24px;
+    height: 24px;
+    margin: 6px 3px;
+}
+header .panel-menu .menu .btn {
+    font-size: 16px;
+}
+header .panel-menu .contacts {
+    text-align: right;
+}
+
+label {
+    color: #211D18;
+}
+
+
+
+
+
+
+
+.footer-menu {
+    background: #ffffff;
+    padding: 24px;
+
+}
+.footer-menu ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-menu .social-icons span{
+    margin-right: 16px;
+    color:rgba(33, 29, 24, 0.6);
+    font-size: 20px;
+}
+ .footer-menu a,.footer-menu a:hover, .footer-menu a:active { color: #000000;}
+footer {
+    background: #66503E;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.04);
+    height: 94px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* bg / white */
+    color: #FFFFFF;
+}
+footer .logo {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+footer .logo span {
+    color:#847768;
+}
+footer .footer {
+    height: 94px;
+}
+footer .copyright {
+    text-align: center;
+}
+footer a {    color: #FFFFFF;}
+footer a:hover {    font-weight: bold; color: #FFFFFF;text-decoration: none;padding-right: 0}
+.carousel-indicators {
+    bottom: 137px;
+}
+.carousel-indicators li {
+    border: 1px solid #847768;
+    box-sizing: border-box;
+    width: 14px;
+    height: 14px;
+    border-radius: 25px;
+    background: rgba(0,0,0,0);
+}
+.carousel-indicators li.active {
+    background: #847768;
+}
+.brown--default {
+    background: #847768;
+    color:#ffffff;
+}
+.shadow {
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.04) !important;
+    border-radius: 4px !important;
+}
+.service-small {
+    margin-top:50px;
+    width: 160px;
+    height: 160px;
+    box-shadow: inset 0px 10px 40px rgba(0, 0, 0, 0.04);
+    background: #ffffff;
+    text-align: center;
+    margin-left:30px;
+}
+.service-small:first-child {
+    margin-left:0px;
+}
+.service-small:hover {
+    box-shadow: inset 0px 10px 40px rgba(0, 0, 0, 0.04);
+    background: #F3EEE8;
+    color:#211D18;
+}
+.service-small p {
+    padding-top: 24px;
+}
+ .text-60 {
+     color: rgba(33, 29, 24, 0.6);
+ }
+ .text-100 {
+     color: #211D18;
+ }
+ .brown--active {
+     background: #66503E;
+ }
+.brown-color {
+    color: #847768;
+}
+ .more_places {
+     text-align: right;
+     text-decoration-line: underline;
+ }
+.more_places .dropdown-toggle::after  {
+    display: none;
+}
+.events {
+    position: relative;
+    width: 540px;
+    background: #ffffff;
+    margin-left: 30px;
+    height: 337px;
+}
+.events .align-items-end {
+    position: absolute;
+    bottom: 49px;
+    left: 16px;
+    height: 97px;
+    right: 16px;
+}
+.events .card-title {
+
+}
+
+.events img {    max-height: 337px; filter: brightness(.5);}
+.events .cens {
+    background: rgba(33, 29, 24, 0.6);
+    border-radius: 4px;
+    text-align: center;
+}
+.advice {
+     position: relative;
+    width: 255px;
+    height: 337px;
+
+    top: 24px;
+    background: #ffffff;
+    margin-left: 30px;
+}
+.advice .align-items-end {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    right: 16px;
+}
+.advice img { height: 140px; }
+.advice .raiting {
+    font-size: 16px;
+    color: #FFCD61;
+}
+.text-small {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.003px;
+    line-height: 14px;
+}
+.text-decoration-underline {
+    text-decoration: underline;
+}
+.btn-group  .dropdown-menu.show  {
+    width: 100vw;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: auto  !important;
+    /*position: fixed !important;*/
+}
+.dropdown-item.active{
+    background: #847768;
+
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color:#211D18;
+    background: linear-gradient(0deg, #FCFAF7, #FCFAF7);
+}
+.submenu .dropdown-item:hover{
+    background: #847768;
+    color:white;
+}
