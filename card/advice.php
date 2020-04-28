@@ -1,5 +1,5 @@
-<div class="col-md advice shadow text-100">
-    <div class="row  align-items-start">
+<li class="advice shadow text-100 owl-item">
+    <div class="align-items-start">
         <img src="<?=$array['img']?>" class="w-100">
         <div class="col">
             <p class="mt-3 mb-2"><?=$array['text']?></p>
@@ -20,4 +20,4 @@
         <div class="col-1"><a href="#" class="brown-color"><span class="mdi mdi-bookmark<?=!$array['bookmark']?'-outline':''?> mdi-24px"></span></a> </div>
         <div class="col-auto ml-auto"><a class="btn brown--default text-white">Подробнее</a></div>
     </div>
-</div>
+</li>

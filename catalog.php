@@ -9,7 +9,7 @@
 <?php
 include('header.php');
 include('sidebar.php');
-include('page/homepage.php');
+include('page/catalog.php');
 include('footer.php');
 ?>
 <link rel="stylesheet" href="/css/bootstrap.min.css" />

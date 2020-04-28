@@ -4,8 +4,8 @@ header.homepage {
     z-index: 1;
     width: 100%;
 }
-#carouselHome {background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));    }
-#carouselHome img { filter: brightness(.5);}
+#carouselHome {background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));  max-height: 900px;  }
+#carouselHome img { filter: brightness(.5);  max-height: 900px;}
 .carousel .carousel-caption {
     font-family: Roboto;
     font-style: normal;
@@ -13,7 +13,7 @@ header.homepage {
     font-size: 16px;
     line-height: 19px;
 }
-.carousel  .carousel-item .carousel-caption {
+.carousel  .carousel-caption {
     position: absolute;
     width: 540px;
     height: 124px;
