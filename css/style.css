@@ -111,9 +111,32 @@ label {
     color: #211D18;
 }
 
+/**********страница 404************/
+.error_page {
+    color:#FFFFFF;
+    background-image: url(../img/error_bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%; 
+    background-repeat: no-repeat;
+    padding-top: 220px;
+}
 
+input.search.col-sm-10 {
+    background: #FFFFFF;
+}
 
+section .search-icon{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 30px;
+    top: 1px;
+    z-index: 5;
+    color: #847768;
+}
 
+/**********контакты************/
 
 
 
