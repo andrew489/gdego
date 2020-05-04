@@ -137,8 +137,69 @@ section .search-icon{
 }
 
 /**********контакты************/
+.feedback {
+    color: #211D18;  
+}
 
+.feedback h2 {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 32px;
+}
 
+.feedback form {
+    margin-top: 32px;
+}
+
+.feedback form span {
+    display: block;
+}
+
+.feedback .email{
+    display: block;
+    margin-bottom: 12px;
+}
+
+.feedback .phone {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.feedback .adress {
+    display: block;
+    
+}
+.feedback button {
+    color: #FFFFFF;
+    background: #847768;
+    border-color:#847768;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.feedback button:hover {
+    color: #FFFFFF;
+}
+
+/**********about************/
+.about {
+    padding-top: 70px;
+}
+.about h2 {
+    margin-bottom: 32px;
+    font-family: Montserrat Alternates;
+}
+
+.about p {
+    color: rgba(33, 29, 24, 0.6);
+    margin-bottom: 12px;
+}
+.about .row {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 .footer-menu {
     background: #ffffff;
