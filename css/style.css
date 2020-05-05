@@ -201,6 +201,37 @@ section .search-icon{
     padding-right: 15px;
 }
 
+/**********stocks************/
+.stocks {
+    padding-top: 70px;
+}
+
+.stocks h2 {
+    margin-bottom: 32px;
+    font-family: Montserrat Alternates;
+}
+
+.stocks p {
+    color: rgba(33, 29, 24, 0.6);
+}
+
+.stocks .raiting {
+    font-size: 16px;
+    color: #FFCD61;
+}
+.stocks .row{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.stocks .row img {
+    width: 255px;
+    height: 143px;
+}
+.stocks h3 {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
 .footer-menu {
     background: #ffffff;
     padding: 24px;
