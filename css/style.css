@@ -485,8 +485,10 @@ input[type="checkbox"]:checked + label[type="checkbox"]:before {
     content: "\2713";
     color: white;
     font-size: 24px;
-    transform: skewX(15);
     background: #66503E;
     text-align: center;
     line-height: 24px;
 }
+
+.mdi-bookmark-outline:hover::before {    content: "\F00C0"; }
+
