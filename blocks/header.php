@@ -11,7 +11,7 @@
                         <input name="search" type="text" class="search col-sm-12">
                 </div>
                 <div class="col-md-5 col-sm-12">
-                    <? include('login-pannel.php'); ?>
+                    <? include('blocks/login-pannel.php'); ?>
                 </div>
             </div>
         </div>
