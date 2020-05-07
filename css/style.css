@@ -245,6 +245,57 @@ section .search-icon{
     margin-bottom: 30px;
 }
 
+/**********search************/
+.search .raiting {
+    font-size: 16px;
+    color: #FFCD61;
+}
+.stocks {
+    padding-top: 70px;
+}
+
+.search h2 {
+    margin-bottom: 32px;
+    font-family: Montserrat Alternates;
+}
+
+.search p {
+    color: rgba(33, 29, 24, 0.6);
+}
+.search .row p {
+    padding-bottom: 14px;
+}
+
+
+.search .row{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.search .row img {
+    width: 100%;
+    height: 143px;
+}
+
+.search h3 {
+    display: inline-block;
+    margin-bottom: 0;
+    padding-top: 14px;
+    text-decoration: none;
+    color: #211D18;
+}
+.search .btn{
+    background: #847768;
+    color: #FFFFFF;
+}
+.search .btn a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.search .btn:hover {
+    background: #66503E;
+}
+
 /**********help************/
 
 .help .btn {
