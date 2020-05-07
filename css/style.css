@@ -111,7 +111,7 @@ label {
     color: #211D18;
 }
 
-/**********страница 404************/
+/**********page 404************/
 .error_page {
     color:#FFFFFF;
     background-image: url(../img/error_bg.png);
@@ -121,8 +121,11 @@ label {
     background-repeat: no-repeat;
     padding-top: 220px;
 }
+.error_page h1 {
+    margin-bottom: 50px;
+}
 
-input.search.col-sm-10 {
+.error_page .form input {
     background: #FFFFFF;
 }
 
@@ -214,23 +217,86 @@ section .search-icon{
 .stocks p {
     color: rgba(33, 29, 24, 0.6);
 }
-
+.stocks .row p {
+    padding-bottom: 14px;
+}
 .stocks .raiting {
     font-size: 16px;
     color: #FFCD61;
 }
+
+.stocks .raiting:hover {
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .stocks .row{
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .stocks .row img {
-    width: 255px;
+    width: 100%;
     height: 143px;
 }
+
 .stocks h3 {
     display: inline-block;
     margin-bottom: 0;
+    padding-top: 14px;
+    text-decoration: none;
+    color: #211D18;
 }
+.stocks_mb{
+    margin-bottom: 30px;
+}
+
+/**********help************/
+
+.help .btn {
+    background: #F3EEE8;
+    border-radius: 4px;
+    color: #211D18;
+    width: 100%;
+}
+
+.help .btn:focus {
+    background-color:#F3EEE8;
+    color: #211D18;
+    box-shadow: none;
+}
+
+.help button {
+    text-align: left;
+}
+
+.help .dropdown-item {
+    white-space: normal;
+}
+
+.help .mdi-chevron-down {
+    position: absolute;
+    right: 16px;
+    top: 9px;
+}
+.help h2 {
+    margin-top: 70px;
+    margin-bottom: 32px;
+}
+.help h3 {
+    margin-bottom: 24px;
+}
+.help h4 {
+    margin-bottom: 0;
+}
+
+.help_dropdown {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
 
 .footer-menu {
     background: #ffffff;
