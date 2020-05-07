@@ -4,7 +4,7 @@
         <img src="<?=$e['src']?>" class="d-block w-100" alt="<?=$e['title']?>">
     </div>
     <div class="card-body">
-        <a href="#" class="text-white d-inline-block mr-3"><span class="mdi-24px brown-color mdi mdi-bookmark<?=!$e['bookmark']?'-outline':''?>"></span></a> <a href="#"><h3 class="d-inline-block card-title brown-color"><?=$e['title']?></h3></a>
+        <span class="mdi-24px brown-color mdi mdi-bookmark<?=!$e['bookmark']?'-outline':''?>  d-inline-block mr-3"></span> <a href="#"><h3 class="d-inline-block card-title brown-color"><?=$e['title']?></h3></a>
         <p class="card-text mt-3"><?=$e['description']?></p>
     </div>
 </div>

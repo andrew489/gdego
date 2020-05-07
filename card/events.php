@@ -22,7 +22,7 @@
                     <div class="col text-white">
                         <h4><?=$array['text']?></h4>
                     </div>
-                </div><div class="row"><div class="col-1"><a href="#" class="text-white"><span class="mdi mdi-bookmark<?=!$array['bookmark']?'-outline':''?>"></span></a> </div><div class="col-5 text-white"><span class="mdi mdi-event"></span><?=$array['date']?></div><div class="col-auto ml-auto"><a href="<?=$array['href']?>" class="text-white text-uppercase">Подробнее <span class="mdi mdi-arrow-right"></span></a></div></div>
+                </div><div class="row"><div class="col-1"><span class="mdi brown-color mdi-bookmark<?=!$array['bookmark']?'-outline':''?>"></span> </div><div class="col-5 text-white"><span class="mdi mdi-event"></span><?=$array['date']?></div><div class="col-auto ml-auto"><a href="<?=$array['href']?>" class="text-white text-uppercase">Подробнее <span class="mdi mdi-arrow-right"></span></a></div></div>
         </div>
     </div>
 </li>

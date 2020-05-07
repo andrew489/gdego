@@ -9,18 +9,18 @@
             <? } ?>
         </div>
         <? if(count($e['imgs'])>1) { ?>
-        <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
         <? } ?>
     </div>
     <div class="card-body">
-        <a href="#" class="text-white d-inline-block mr-3"><span class="mdi-24px brown-color mdi mdi-bookmark<?=!$e['bookmark']?'-outline':''?>"></span></a> <a href="#"><h3 class="d-inline-block card-title brown-color"><?=$e['title']?></h3></a>
+        <span class="mdi-24px  d-inline-block  mr-3 brown-color mdi mdi-bookmark<?=!$e['bookmark']?'-outline':''?>"></span> <a href="#"><h3 class="d-inline-block card-title brown-color"><?=$e['title']?></h3></a>
         <p class="card-text mt-3"><?=$e['description']?></p>
     </div>
 </div>
