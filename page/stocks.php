@@ -6,8 +6,8 @@
         <a href="#" class="banner d-none d-sm-block"><img src="../img/stocks_banner.png" alt="banner"></a>
         </div>
 
-        <div class="row shadow bg-white d-flex align-items-center mb-sm-4 pr-0 stocks_mb">
-            <div class="col-sm-3 col-12 pl-0">
+        <div class="row shadow bg-white d-flex align-items-center mb-sm-4 stocks_mb pr-sm-3 pl-sm-3 pl-0 pr-0 ">
+            <div class="col-sm-3 col-12 pl-0 pr-sm-3 pr-0">
                 <img src="../img/stocks_img1.png" alt="">
             </div>
             <div class="col-sm-9 col-12">

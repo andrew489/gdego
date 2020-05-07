@@ -110,6 +110,10 @@ header .login {float: right;}
 label {
     color: #211D18;
 }
+p {
+    color: rgba(33, 29, 24, 0.6);
+    margin-bottom: 12px;
+}
 
 /**********page 404************/
 .error_page {
@@ -121,9 +125,7 @@ label {
     background-repeat: no-repeat;
     padding-top: 220px;
 }
-.error_page h1 {
-    margin-bottom: 50px;
-}
+
 
 .error_page .form input {
     background: #FFFFFF;
@@ -195,10 +197,7 @@ section .search-icon{
     font-family: Montserrat Alternates;
 }
 
-.about p {
-    color: rgba(33, 29, 24, 0.6);
-    margin-bottom: 12px;
-}
+ 
 .about .row {
     padding-left: 15px;
     padding-right: 15px;
@@ -223,11 +222,6 @@ section .search-icon{
 .stocks .raiting {
     font-size: 16px;
     color: #FFCD61;
-}
-
-.stocks .raiting:hover {
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .stocks .row{
