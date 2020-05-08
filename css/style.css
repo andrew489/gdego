@@ -326,6 +326,21 @@ section .search-icon{
     margin-right: 32px;
 }
 
+/**********login************/
+.login {
+    padding-top: 70px;
+}
+
+.login .form-check-input {
+    display: inline-block;
+}
+.login .btn {
+    text-transform: uppercase;
+}
+
+
+
+
 /**********help************/
 
 .help .btn {
