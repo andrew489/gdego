@@ -341,9 +341,6 @@ section .search-icon{
     padding-top: 70px;
 }
 
-.login_site .form-check-input {
-    display: inline-block;
-}
 .login_site .btn {
     text-transform: uppercase;
 }
@@ -351,16 +348,24 @@ section .search-icon{
 .login_site a:hover {
     color: #847768;
 }
+
 .login_site .form-control {
     background: rgba(0, 0, 0, 0.1);
-}
+} 
+
 .login_site .mdi.mdi-eye {
     float: right;
     position: relative;
     bottom: 28px;
     right: 8px;
+    
 }
-
+.bg_login_site {
+    background: url(../img/bg_login_site.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
 
 /**********help************/
 
