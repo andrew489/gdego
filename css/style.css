@@ -266,7 +266,6 @@ section .search-icon{
     padding-bottom: 14px;
 }
 
-
 .search .row{
     padding-left: 15px;
     padding-right: 15px;
@@ -294,6 +293,37 @@ section .search-icon{
 }
 .search .btn:hover {
     background: #66503E;
+}
+
+/**********registration************/
+.registration {
+    padding-top: 70px;
+}
+
+.registration h2 {
+    font-family: Montserrat Alternates; 
+}
+
+.registration_card {
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-bottom: 31px;
+}
+
+.registration_card p{
+    padding-right: 83px;
+}
+
+.registration .btn {
+    background: #DBD0C3;
+    text-transform: uppercase;
+}
+.registration .btn:hover {
+    background: #847768;
+}
+
+.right-button {
+    margin-right: 32px;
 }
 
 /**********help************/
