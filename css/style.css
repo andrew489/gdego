@@ -327,18 +327,29 @@ section .search-icon{
 }
 
 /**********login************/
-.login {
+.login_site {
     padding-top: 70px;
 }
 
-.login .form-check-input {
+.login_site .form-check-input {
     display: inline-block;
 }
-.login .btn {
+.login_site .btn {
     text-transform: uppercase;
 }
 
-
+.login_site a:hover {
+    color: #847768;
+}
+.login_site .form-control {
+    background: rgba(0, 0, 0, 0.1);
+}
+.login_site .mdi.mdi-eye {
+    float: right;
+    position: relative;
+    bottom: 28px;
+    right: 8px;
+}
 
 
 /**********help************/
