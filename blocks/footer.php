@@ -68,12 +68,12 @@
                         <a href="#"><span>Наши скидки</span></a>
                     </li>
                 </ul>
-                <div class="social-icons">
-                    <span class="mdi mdi-twitter"></span>
-                    <span class="mdi mdi-instagram"></span>
-                    <span class="mdi mdi-youtube"></span>
-                    <span class="mdi mdi-facebook"></span>
-                    <span class="mdi mdi-vk"></span>
+                <div class="social-icons mt-2">
+                    <a href="http://twiter.com" target="_blank"><span class="mdi mdi-twitter"></span></a>
+                    <a href="http://instagram.com" target="_blank"><span class="mdi mdi-instagram"></span></a>
+                    <a href="http://youtube.com" target="_blank"><span class="mdi mdi-youtube"></span></a>
+                    <a href="http://facebok.com" target="_blank"><span class="mdi mdi-facebook"></span></a>
+                    <a href="http://vk.com" target="_blank"><span class="mdi mdi-vk"></span></a>
                 </div>
             </div>
         </div>

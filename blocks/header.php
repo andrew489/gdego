@@ -3,15 +3,15 @@
         <div class="fixed-top">
         <div class="container">
             <div class="row align-items-center topnav">
-                <div class="col-sm-12 col-md-3 logo">
+                <a class="col-sm-12 col-md-3 logo" href="/">
                     GDE<span>GO</span>
-                </div>
+                </a>
                 <div class="col-md-4 col-sm-12">
                         <span class="mdi mdi-magnify search-icon"></span>
                         <input name="search" type="text" class="search col-sm-12">
                 </div>
                 <div class="col-md-5 col-sm-12">
-                    <? include('login-pannel.php'); ?>
+                    <? include('blocks/login-pannel.php'); ?>
                 </div>
             </div>
         </div>
@@ -46,7 +46,9 @@
                     </span>
                 </div>
             </div>
-            <? include('blocks/menu.php') ?>
         </div>
+    </div>
+    <div class="bg-white">
+        <? include('blocks/menu.php') ?>
     </div>
 </header>
