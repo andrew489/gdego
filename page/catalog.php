@@ -1,7 +1,7 @@
 <div class="container catalog">
     <h2 class="mt-5">Каталог {{ item.name }}</h2>
     <? include('blocks/sort-panel.php'); ?>
-    <? include('blocks/map-panel.php'); ?>
+    <? include('blocks/map-pannel.php'); ?>
     <div class="row pl-3">
         <div class="col-sm-3 sidebar"><? include('blocks/sidebar.php'); ?></div>
         <div class="col-sm-9">
@@ -19,7 +19,8 @@
                     ?>
                 </div>
             </div>
-            <div class="row"><div class="col ml-3 mb-3"><div class="row"><div class="col"><a href="#"><img src="../img/banner.png" alt="Реклама 825х90" class="w-100" /></a></div></div></div></div>
+            <? $array=array('href'=>'#','alt'=>'...','src'=>'../img/banner.png');?>
+            <div class="row"><div class="col ml-3 mb-3"><div class="row"><div class="col"><? include('card/banner.php')?></div></div></div></div>
             <div class="row">
                 <div class="col ml-3 mt-3">
                     <h3 class="mb-3">{{ city.name }}: Лучшие {{ category.name }} в городе</h3>

@@ -8,7 +8,7 @@
 <body>
 <?php
 include('blocks/header.php');
-include('page/about.php');
+include('page/maps.php');
 include('blocks/footer.php');
 ?>
 <link rel="stylesheet" href="/css/bootstrap.min.css" />

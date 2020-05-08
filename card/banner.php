@@ -1,0 +1,1 @@
+<a href="<?=$array['href']?>"><img src="<?=$array['src']?>" alt="<?=$array['alt']?>" class="w-100" /></a>
