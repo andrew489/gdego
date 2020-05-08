@@ -1,5 +1,12 @@
+<?
+$array=array('control_panel'=>true, 'id'=>'carouselHome', 'text-width'=>'w-50',
+            'elements'=>array(
+                array('img'=>'/slider/slide-1.jfif','alt'=>'...','title'=>'First slide label','tag'=>'h1','text'=>'Sint nulla aute sunt irure irure ut laborum aute fugiat culpa exercitation eu et dolore. Minim exercitation mollit irure voluptate proident culpa veniam consequat culpa mollit. Cillum sit ut nulla esse exercitation aliqua nisi proident fugiat consequat dolor Lorem nostrud.'),
+                array('img'=>'/slider/slide-2.jfif','alt'=>'...','title'=>'Two slide label','tag'=>'h2','text'=>'Sint nulla aute sunt irure irure ut laborum aute fugiat culpa exercitation eu et dolore. Minim exercitation mollit irure voluptate proident culpa veniam consequat culpa mollit. Cillum sit ut nulla esse exercitation aliqua nisi proident fugiat consequat dolor Lorem nostrud.'),
+            )
+);
 
-<? include('blocks/slider-main.php'); ?>
+include('blocks/slider-main.php'); ?>
 <? include('blocks/search-pannel.php'); ?>
 
 <div class="container">
@@ -23,7 +30,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col"><h2>Рекомендации для вас</h2></div>
+        <div class="col pl-0"><h2>Рекомендации для вас</h2></div>
     </div>
 </div>
 <ul class="mt-5 "  id="cl-advice">
@@ -60,7 +67,7 @@
 </ul>
 <div class="container mt-5">
     <div class="row">
-        <div class="col-9"><h2>Ближайшие события</h2></div><div class="col-3 align-self-center"><a href="#" class="brown-color text-decoration-underline pr-4">Бесплатно</a><a href="#" class="brown-color text-decoration-underline pl-4 border-left">Все события</a></div>
+        <div class="col-9" pl-0><h2>Ближайшие события</h2></div><div class="col-3 text-right align-self-center"><a href="#" class="brown-color text-decoration-underline pr-4">Бесплатно</a><a href="#" class="brown-color text-decoration-underline pl-4 border-left">Все события</a></div>
     </div>
 </div>
 <ul class="mt-5" id="cl-events">
@@ -78,7 +85,7 @@
 </ul>
 <div class="container mt-5">
     <div class="row">
-        <div class="col-12"><h2>Ближайшие события</h2></div>
+        <div class="col-12 pl-0"><h2>Ближайшие события</h2></div>
     </div>
 </div>
 <ul class="mt-5 "  id="cl-advice2">

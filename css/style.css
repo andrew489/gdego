@@ -50,6 +50,7 @@ header .topbar .local {
     width: 24px;
     height: 24px;
     color: #847768;
+    vertical-align: bottom;
 
 }
 header .topbar .select {
@@ -57,6 +58,9 @@ header .topbar .select {
     font-size: 17px;
 }
 
+header .logo:hover {
+    text-decoration: none;
+}
 header .logo {
     font-family: "Montserrat Alternates";
     font-style: normal;
@@ -82,7 +86,13 @@ header .search-icon{
     left: 25px;
     top: 8px;
 }
-
+header #dropdown-menu.show, #dropdown-menu.collapsing  {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+header .submenu {
+    background: linear-gradient(0deg, #FCFAF7, #FCFAF7);border-radius: 4px;
+}
 header .panel-menu {
     font-family: Roboto;
     font-style: normal;
@@ -357,6 +367,10 @@ footer a:hover {    font-weight: bold; color: #FFFFFF;text-decoration: none;padd
     background: #847768;
     color:#ffffff;
 }
+.brown--dis {
+    background: #847768;
+    color:#ffffff;
+}
 .shadow {
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.04) !important;
     border-radius: 4px !important;
@@ -395,6 +409,7 @@ footer a:hover {    font-weight: bold; color: #FFFFFF;text-decoration: none;padd
 }
  .more_places {
      text-align: right;
+     cursor: pointer;
      text-decoration-line: underline;
  }
 .more_places .dropdown-toggle::after  {
@@ -418,7 +433,7 @@ footer a:hover {    font-weight: bold; color: #FFFFFF;text-decoration: none;padd
 
 }
 
-.events img {    max-height: 337px; filter: brightness(.5);}
+.events img {    max-height: 337px;  min-height: 337px; filter: brightness(.5);}
 .events .cens {
     background: rgba(33, 29, 24, 0.6);
     border-radius: 4px;
@@ -551,4 +566,47 @@ input[type="checkbox"]:checked + label[type="checkbox"]:before {
 }
 
 .mdi-bookmark-outline:hover::before {    content: "\F00C0"; }
+.mdi-bookmark-outline, .mdi-bookmark {    cursor: pointer; }
+.mdi-align-vertical-bottom {vertical-align: bottom;}
+.footer-menu h4 {
+    margin-bottom: 16px;
+}
+.footer-menu li {
+    margin-bottom: 8px;
+}
+.maps + .footer-menu {margin-top:0;}
 
+#carouselProduct .carousel-caption {
+    top: 25%;
+}
+.grey {color: grey}
+
+.galery .lSSlideOuter { overflow: hidden}
+.galery ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+.galery li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+.galery img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    max-height: 415px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.04) !important;
+    border-radius: 4px !important;
+}
+
+#list-product .btn.active{
+    background: #DBD0C3;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+}
+.tab-pane p,.tab-pane  {
+    color: #211D18;
+}

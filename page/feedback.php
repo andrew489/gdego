@@ -5,31 +5,31 @@
               <h2 class="mt-5">Контакты</h2>  
                 <p class="mb-4">Pariatur ex ipsum sit cillum eiusmod exercitation exercitation velit deserunt excepteur veniam nostrud.</p>
                 <span class="email">
-                    <span class="mdi mdi-email-open email-icon brown-color"></span>
-                    example@gdego.ru
+                    <span class="mdi mdi-email-open email-icon brown-color mdi-24px mdi-align-vertical-bottom"></span>
+                    <span class="ml-2">example@gdego.ru</span>
                 </span>
                 <span class="phone">
-                    <span class="mdi mdi-cellphone-iphone phone-icon brown-color"></span>
-                        +7 (225) 555-0118
+                    <span class="mdi mdi-cellphone-iphone phone-icon brown-color mdi-24px mdi-align-vertical-bottom"></span>
+                    <span class="ml-2">+7 (225) 555-0118</span>
                 </span>
                 <span class="adress">
-                    <span class="mdi mdi-map email-icon brown-color"></span>
-                    6386 Spring St undefined Anchorage, Georgia 12473 United States
+                    <span class="mdi mdi-map email-icon brown-color mdi-24px mdi-align-vertical-bottom"></span>
+                    <span class="ml-2">6386 Spring St undefined Anchorage, Georgia 12473 United States</span>
                 </span>
                 <form>
                     <div class="form-row col-12 pl-0 pr-0 ml-0 mb-2">
                         <div class="form-group col-6 pl-0 pr-3">
-                            <span class="mb-1">Имя</span>
+                            <span class="mb-2">Имя</span>
                             <input type="text" class="form-control" >
                         </div>
                         <div class="form-group col-6 pr-0 pl-3">
-                            <span class="mb-1">Email</span>
+                            <span class="mb-2">Email</span>
                             <input type="text" class="form-control" id="inputEmail4">
                         </div>
                     </div>
-                        <span class="mb-1">Сообщение</span>
-                        <div class="form-group col-12 pl-0">
-                        <textarea name="" id="" cols="65" rows="7"></textarea>
+                        <span class="mb-2">Сообщение</span>
+                        <div class="form-group col-12 px-0">
+                        <textarea name="" id="" cols="65" rows="7" class="w-100 border-0"></textarea>
                     </div>
                         <button type="submit" class="btn mb-2 mt-2">Отправить</button>
                     

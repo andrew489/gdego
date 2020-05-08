@@ -14,17 +14,17 @@ header.homepage {
     line-height: 19px;
 }
 .carousel  .carousel-caption {
-    position: absolute;
-    width: 540px;
-    height: 124px;
-    left: 235px;
+    /*position: absolute;*/
+    /*width: 540px;*/
+    /*height: 124px;*/
+    /*left: 235px;*/
     top: 324px;
-    text-align: left;
+    /*text-align: left;*/
 }
 .carousel .carousel-caption p { margin-top: 50px}
 .search-pannel {
     position: relative;
-    padding: 32px;
+    padding: 32px 48px !important;
     margin-top: -88px;
     background: #FFFFFF;
 }
