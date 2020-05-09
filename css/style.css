@@ -343,6 +343,42 @@ section .search-icon{
     margin-right: 32px;
 }
 
+
+/**********registration_comp2************/
+.registration_comp {
+    padding-top: 70px;
+}
+.registration_comp h2 {
+    font-family: Montserrat Alternates; 
+}
+.registration_comp .btn {
+    background: #DBD0C3;
+    text-transform: uppercase;
+}
+.registration_comp .btn:hover {
+    background: #847768;
+}
+.registration_comp form {
+   padding: 32px;
+}
+
+/**********registration_user************/
+.registration_user {
+    padding-top: 70px;
+}
+.registration_user h2 {
+    font-family: Montserrat Alternates; 
+}
+.registration_user .btn {
+    background: #DBD0C3;
+    text-transform: uppercase;
+}
+.registration_user .btn:hover {
+    background: #847768;
+}
+
+
+
 /**********login************/
 .login_site {
     padding-top: 70px;
