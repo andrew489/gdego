@@ -16,7 +16,7 @@ h1 {
     line-height: 49px;
 }
 h2 {
-    font-family: Montserrat Alternates;
+    font-family: "Montserrat Alternates";
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -30,7 +30,7 @@ h3 {
     line-height: 30px;
 }
 h4 {
-    font-family: Montserrat Alternates;
+    font-family: "Montserrat Alternates";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -83,7 +83,7 @@ header .mdi {
    font-size: 24px;
 }
 header .email .mdi, header .phone .mdi, header .login .mdi {vertical-align: bottom;color: #847768;}
-header .search{
+header .search {
     padding: 8px 16px 8px 45px;
 }
 header .search-icon{
@@ -163,14 +163,6 @@ section .search-icon{
     color: #211D18;  
 }
 
-.feedback h2 {
-    font-family: Montserrat Alternates;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 39px;
-    margin-bottom: 32px;
-}
 
 .feedback form {
     margin-top: 32px;
@@ -211,7 +203,6 @@ section .search-icon{
 }
 .about h2 {
     margin-bottom: 32px;
-    font-family: Montserrat Alternates;
 }
 
  
@@ -227,7 +218,6 @@ section .search-icon{
 
 .stocks h2 {
     margin-bottom: 32px;
-    font-family: Montserrat Alternates;
 }
 
 .stocks p {
@@ -265,19 +255,6 @@ section .search-icon{
 
 .search h2 {
     margin-bottom: 32px;
-    font-family: Montserrat Alternates;
-}
-
-.search p {
-    color: rgba(33, 29, 24, 0.6);
-}
-.search .row p {
-    padding-bottom: 14px;
-}
-
-.search .row{
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .search .row img {
@@ -300,17 +277,15 @@ section .search-icon{
     color: #FFFFFF;
     text-decoration: none;
 }
-.search .btn:hover {
+.btn.brown--default:hover {
     background: #66503E;
 }
-
+.brown--default-focus:hover {
+    background: #66503E;
+}
 /**********registration************/
 .registration {
     padding-top: 70px;
-}
-
-.registration h2 {
-    font-family: Montserrat Alternates; 
 }
 
 .registration_card {
@@ -327,9 +302,7 @@ section .search-icon{
     background: #DBD0C3;
     text-transform: uppercase;
 }
-.registration .btn:hover {
-    background: #847768;
-}
+
 
 .right-button {
     margin-right: 32px;
@@ -340,9 +313,7 @@ section .search-icon{
 .registration_comp {
     padding-top: 70px;
 }
-.registration_comp h2 {
-    font-family: Montserrat Alternates; 
-}
+
 .registration_comp .btn {
     background: #DBD0C3;
     text-transform: uppercase;
@@ -357,9 +328,6 @@ section .search-icon{
 /**********registration_user************/
 .registration_user {
     padding-top: 70px;
-}
-.registration_user h2 {
-    font-family: Montserrat Alternates; 
 }
 .registration_user .btn {
     background: #DBD0C3;
@@ -398,7 +366,7 @@ section .search-icon{
     
 }
 .bg_login_site {
-    background: url(../img/bg_login_site.png);
+    background: url('/img/bg_login_site.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -432,16 +400,7 @@ section .search-icon{
     right: 16px;
     top: 9px;
 }
-.help h2 {
-    margin-top: 70px;
-    margin-bottom: 32px;
-}
-.help h3 {
-    margin-bottom: 24px;
-}
-.help h4 {
-    margin-bottom: 0;
-}
+
 
 .help_dropdown {
     background-color: #FFFFFF;
@@ -465,7 +424,7 @@ section .search-icon{
     color:rgba(33, 29, 24, 0.6);
     font-size: 20px;
 }
- .footer-menu a,.footer-menu a:hover, .footer-menu a:active { color: #000000;}
+.footer-menu a,.footer-menu a:hover, .footer-menu a:active { color: #000000;}
 footer {
     background: #66503E;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.04);
@@ -480,7 +439,7 @@ footer {
     color: #FFFFFF;
 }
 footer .logo {
-    font-family: Montserrat Alternates;
+    font-family: "Montserrat Alternates";
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -531,7 +490,6 @@ footer a:hover {    font-weight: bold; color: #FFFFFF;text-decoration: none;padd
     box-shadow: inset 0px 10px 40px rgba(0, 0, 0, 0.04);
     background: #ffffff;
     text-align: center;
-    margin-left:30px;
 }
 .service-small:first-child {
     margin-left:0px;
@@ -556,11 +514,11 @@ footer a:hover {    font-weight: bold; color: #FFFFFF;text-decoration: none;padd
 .brown-color {
     color: #847768;
 }
- .more_places {
+.more_places {
      text-align: right;
      cursor: pointer;
      text-decoration-line: underline;
- }
+}
 .more_places .dropdown-toggle::after  {
     display: none;
 }
@@ -578,10 +536,6 @@ footer a:hover {    font-weight: bold; color: #FFFFFF;text-decoration: none;padd
     height: 97px;
     right: 16px;
 }
-.events .card-title {
-
-}
-
 .events img {    max-height: 337px;  min-height: 337px; filter: brightness(.5);}
 .events .cens {
     background: rgba(33, 29, 24, 0.6);
@@ -670,7 +624,7 @@ footer a:hover {    font-weight: bold; color: #FFFFFF;text-decoration: none;padd
 .radio-group {margin-top: 27px;padding-bottom: 32px;border-bottom: 1px solid #DBD0C3;}
 .radio-group:last-child {border-bottom:0;}
 label {
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -679,6 +633,9 @@ label {
 }
 input[type="checkbox"], input[type="radio"] {
     display: none;
+}
+input:focus {
+    outline: none;
 }
 textarea {
     background: rgba(0, 0, 0, 0.1);border-radius: 4px;
@@ -765,3 +722,4 @@ input[type="checkbox"]:checked + label[type="checkbox"]:before {
 .container.product .map-pannel {
     margin-top: 0 !important;
 }
+.error_page + .footer-menu {margin-top: 0}
