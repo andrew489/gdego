@@ -10,7 +10,7 @@
                         </a>
                     </div>
                 </div>
-                <a class="col col-md-3 logo d-inline-block text-center px-1 px-md-3" href="/">
+                <a class="col col-md-3 logo d-inline-block text-center text-md-left px-1 px-md-3" href="/">
                     GDE<span>GO</span>
                 </a>
                 <? include('blocks/login-pannel-mini.php'); ?>
