@@ -742,7 +742,7 @@ input[type="checkbox"]:checked + label[type="checkbox"]:before {
 }
 
 header .login .dropdown-toggle::after {margin-left:32px;}
-.bell1::after {
+.bell1.active::after {
     background: #FF5252;
     width: 7px;
     height: 6px;

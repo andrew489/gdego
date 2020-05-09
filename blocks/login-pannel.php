@@ -3,7 +3,7 @@
 <!--    <span class="mdi mdi-login d-inline-block"></span>-->
 <!--</div>-->
 <div class="col d-none d-md-flex">
-    <a href="#"><span class="mdi mdi-bell brown-color mr-4 bell1"></span></a>
+    <a href="#"><span class="mdi mdi-bell brown-color mr-4 bell1 active"></span></a>
     <a href="#"><span class="mdi mdi-bookmark-outline brown-color"></span></a>
     <div class="ml-auto text-decoration-none d-none d-md-inline-block brown-color login justify-content-end">
         <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="h4 mr-3">Arlene Simmmons</span><span class="mdi mdi-account-circle mdi-36px" style="vertical-align: sub;"></span></a>
