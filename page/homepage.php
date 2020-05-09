@@ -30,11 +30,11 @@ include('blocks/search-pannel.php'); ?>
             Еще места
         </a>
         <div class="dropdown-menu dropdown-menu-right w-25 border-0 shadow text-justify">
-            <a href="#" class="dropdown-item text-100 pt-3 pb-2" type="button"><span class="mdi mdi-view-dashboard-outline mdi-24px pr-2 mb-2"></span>Lorem ipsum</a>
-            <a href="#"  class="dropdown-item text-100 pt-1 pb-2" type="button"><span class="mdi mdi-view-dashboard-outline mdi-24px pr-2 mb-2"></span>Lorem ipsum</a>
-            <a href="#"  class="dropdown-item text-100 pt-1 pb-2" type="button"><span class="mdi mdi-view-dashboard-outline mdi-24px pr-2 mb-2"></span>Lorem ipsum</a>
-            <a href="#"  class="dropdown-item text-100 pt-1 pb-2" type="button"><span class="mdi mdi-view-dashboard-outline mdi-24px pr-2 mb-2"></span>Lorem ipsum</a>
-            <a href="#"  class="dropdown-item text-100 pt-1 pb-2" type="button"><span class="mdi mdi-view-dashboard-outline mdi-24px pr-2 mb-2"></span>Lorem ipsum</a>
+            <a href="#" class="dropdown-item text-100 pt-3 pb-2"><span class="mdi mdi-view-dashboard-outline mdi-24px pr-2 mb-2"></span>Lorem ipsum</a>
+            <a href="#"  class="dropdown-item text-100 pt-1 pb-2"><span class="mdi mdi-view-dashboard-outline mdi-24px pr-2 mb-2"></span>Lorem ipsum</a>
+            <a href="#"  class="dropdown-item text-100 pt-1 pb-2"><span class="mdi mdi-view-dashboard-outline mdi-24px pr-2 mb-2"></span>Lorem ipsum</a>
+            <a href="#"  class="dropdown-item text-100 pt-1 pb-2"><span class="mdi mdi-view-dashboard-outline mdi-24px pr-2 mb-2"></span>Lorem ipsum</a>
+            <a href="#"  class="dropdown-item text-100 pt-1 pb-2"><span class="mdi mdi-view-dashboard-outline mdi-24px pr-2 mb-2"></span>Lorem ipsum</a>
         </div>
     </div>
     <div class="row">

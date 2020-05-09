@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-md-5 col-sm-12 menu d-none d-sm-inline-block">
                     <div class="btn-group" role="group">
-                        <a id="btnGroupDrop1" href="#" type="button" class="btn" data-toggle="collapse" data-target="#dropdown-menu" aria-expanded="true" aria-controls="collapseOne">
+                        <a id="btnGroupDrop1" href="#" class="btn" data-toggle="collapse" data-target="#dropdown-menu" aria-expanded="true" aria-controls="collapseOne">
                             <svg class="menu-icon brown-color" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M3 6H21V8H3V6ZM3 11H17V13H3V11ZM3 16H14V18H3V16Z" fill="#847768"/>
                             </svg>
@@ -41,7 +41,7 @@
                 </div>
                 <div class="col-md-5 col-sm-12 menu d-inline-block d-sm-none">
                     <div class="btn-group menu_mobile" role="group">
-                        <a id="btnGroupDrop1" href="#" type="button" class="btn" data-toggle="collapse" data-target="#dropdown-menu" aria-expanded="true" aria-controls="collapseOne">
+                        <a id="btnGroupDrop1" href="#" class="btn" data-toggle="collapse" data-target="#dropdown-menu" aria-expanded="true" aria-controls="collapseOne">
                         <span class="mdi mdi-menu "></span>
                         </a>
                         

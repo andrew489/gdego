@@ -12,7 +12,7 @@
             </div>
             <div class="col-sm-12 col-md-auto align-self-end">
                 <div class="row pl-3 pl-sm-2 pl-md-4">
-                    <input type="button" class="btn brown--default" value="Найти заведение" >
+                    <a class="btn brown--default text-white">Найти заведение</a>
                 </div>
             </div>
         </div>

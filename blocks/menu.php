@@ -64,7 +64,7 @@ $subs=[
     <div class="row">
         <? foreach($arrays as $array) {?>
             <div class="col-auto p-0">
-                <a href="<?=$array['href']?>" class="dropdown-item text-100 py-2 px-3<?=' '.$array['active']?>" type="button"
+                <a href="<?=$array['href']?>" class="dropdown-item text-100 py-2 px-3<?=' '.$array['active']?>"
                     <?=$array['submenu']?' data-toggle="collapse" data-target="#submenu'.$array['id'].'" aria-expanded="true" aria-controls="collapseOne"':''?>
                 ><?=$array['name']?></a>
             </div>
@@ -78,7 +78,7 @@ $subs=[
             <div class="row">
                 <? foreach($array['submenu'] as $sub){?>
                     <div class="col-sm-2">
-                        <a href="<?=$sub['href']?>" class="dropdown-item text-100 py-2 px-3<?=' '.$sub['active']?>" type="button"><?=$sub['name']?></a>
+                        <a href="<?=$sub['href']?>" class="dropdown-item text-100 py-2 px-3<?=' '.$sub['active']?>"><?=$sub['name']?></a>
                     </div>
                 <? } ?>
             </div>
