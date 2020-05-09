@@ -59,13 +59,13 @@
                         <a href="#"><span>Преимущества</span></a>
                     </li>
                     <li>
-                        <a href="#"><span>Контакты</span></a>
+                        <a href="/feedback.php"><span>Контакты</span></a>
                     </li>
                     <li>
                         <a href="#"><span>Сертификаты</span></a>
                     </li>
                     <li>
-                        <a href="#"><span>Наши скидки</span></a>
+                        <a href="/stocks.php"><span>Наши скидки</span></a>
                     </li>
                 </ul>
                 <div class="social-icons mt-2">
