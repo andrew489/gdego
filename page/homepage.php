@@ -1,8 +1,8 @@
 <?
 $array=array('control_panel'=>true, 'id'=>'carouselHome', 'text-width'=>'w-50',
             'elements'=>array(
-                array('img'=>'/slider/slide-1.jfif','alt'=>'...','title'=>'First slide label','tag'=>'h1','text'=>'Sint nulla aute sunt irure irure ut laborum aute fugiat culpa exercitation eu et dolore. Minim exercitation mollit irure voluptate proident culpa veniam consequat culpa mollit. Cillum sit ut nulla esse exercitation aliqua nisi proident fugiat consequat dolor Lorem nostrud.'),
-                array('img'=>'/slider/slide-2.jfif','alt'=>'...','title'=>'Two slide label','tag'=>'h2','text'=>'Sint nulla aute sunt irure irure ut laborum aute fugiat culpa exercitation eu et dolore. Minim exercitation mollit irure voluptate proident culpa veniam consequat culpa mollit. Cillum sit ut nulla esse exercitation aliqua nisi proident fugiat consequat dolor Lorem nostrud.'),
+                array('img'=>'/slider/slide-1.jfif','href'=>'/catalog.php','alt'=>'...','title'=>'First slide label','tag'=>'h1','text'=>'Sint nulla aute sunt irure irure ut laborum aute fugiat culpa exercitation eu et dolore. Minim exercitation mollit irure voluptate proident culpa veniam consequat culpa mollit. Cillum sit ut nulla esse exercitation aliqua nisi proident fugiat consequat dolor Lorem nostrud.'),
+                array('img'=>'/slider/slide-2.jfif','href'=>'/catalog.php','alt'=>'...','title'=>'Two slide label','tag'=>'h2','text'=>'Sint nulla aute sunt irure irure ut laborum aute fugiat culpa exercitation eu et dolore. Minim exercitation mollit irure voluptate proident culpa veniam consequat culpa mollit. Cillum sit ut nulla esse exercitation aliqua nisi proident fugiat consequat dolor Lorem nostrud.'),
             )
 );
 
@@ -12,7 +12,13 @@ include('blocks/slider-main.php'); ?>
 <div class="container">
     <div class="row">
         <?
-        $arrays = [['icon'=>'silverware','text'=>'Еда','href'=>'#'],['icon'=>'cart-arrow-down','text'=>'Шопинг','href'=>'#'],['icon'=>'car-info','text'=>'Авто','href'=>'#'],['icon'=>'airballoon','text'=>'Развлечения','href'=>'#'],['icon'=>'book-open-page-variant','text'=>'Культура','href'=>'#'],['icon'=>'video-vintage','text'=>'Кинотеатры','href'=>'#']];
+        $arrays = [
+            ['icon'=>'silverware','text'=>'Еда','href'=>'/catalog.php'],
+            ['icon'=>'cart-arrow-down','text'=>'Шопинг','href'=>'/catalog.php'],['icon'=>'car-info','text'=>'Авто','href'=>'/catalog.php'],
+            ['icon'=>'airballoon','text'=>'Развлечения','href'=>'/catalog.php'],
+            ['icon'=>'book-open-page-variant','text'=>'Культура','href'=>'/catalog.php'],
+            ['icon'=>'video-vintage','text'=>'Кинотеатры','href'=>'/catalog.php']
+        ];
         foreach($arrays as $array){
            include('card/services-small.php');
         }?>
@@ -36,31 +42,31 @@ include('blocks/slider-main.php'); ?>
 <ul class="mt-5 "  id="cl-advice">
             <?
             $arrays = [
-                ['img'=>'/slider/coffe-4.jfif','text'=>'Сеть закусочных “DAMI”'],
-                ['img'=>'/slider/coffe-3.jfif','raiting'=>3,'text'=>'Сеть закусочных “DAMI”','comment'=>1900,'bookmark'=>0],
-                ['img'=>'/slider/coffe-4.jfif','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
-                ['img'=>'/slider/coffe-3.jfif','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
-                ['img'=>'/slider/coffe-4.jfif','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
-                ['img'=>'/slider/coffe-4.jfif','raiting'=>1.5,'text'=>'Сеть закусочных “DAMI”','comment'=>5500,'bookmark'=>1],
-                ['img'=>'/slider/coffe-4.jfif','raiting'=>1.5,'text'=>'Сеть закусочных “DAMI”','comment'=>5500,'bookmark'=>1],
-                ['img'=>'/slider/coffe-4.jfif','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
-                ['img'=>'/slider/coffe-3.jfif','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
-                ['img'=>'/slider/coffe-4.jfif','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
-                ['img'=>'/slider/coffe-4.jfif','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
-                ['img'=>'/slider/coffe-3.jfif','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
-                ['img'=>'/slider/coffe-4.jfif','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
-                ['img'=>'/slider/coffe-4.jfif','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
-                ['img'=>'/slider/coffe-3.jfif','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
-                ['img'=>'/slider/coffe-4.jfif','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
-                ['img'=>'/slider/coffe-4.jfif','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
-                ['img'=>'/slider/coffe-3.jfif','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
-                ['img'=>'/slider/coffe-4.jfif','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
-                ['img'=>'/slider/coffe-4.jfif','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
-                ['img'=>'/slider/coffe-3.jfif','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
-                ['img'=>'/slider/coffe-4.jfif','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
-                ['img'=>'/slider/coffe-4.jfif','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
-                ['img'=>'/slider/coffe-3.jfif','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
-                ['img'=>'/slider/coffe-4.jfif','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0]];
+                ['img'=>'/slider/coffe-4.jfif','href'=>'/product.php','text'=>'Сеть закусочных “DAMI”'],
+                ['img'=>'/slider/coffe-3.jfif','href'=>'/product.php','raiting'=>3,'text'=>'Сеть закусочных “DAMI”','comment'=>1900,'bookmark'=>0],
+                ['img'=>'/slider/coffe-4.jfif','href'=>'/product.php','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
+                ['img'=>'/slider/coffe-3.jfif','href'=>'/product.php','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
+                ['img'=>'/slider/coffe-4.jfif','href'=>'/product.php','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
+                ['img'=>'/slider/coffe-4.jfif','href'=>'/product.php','raiting'=>1.5,'text'=>'Сеть закусочных “DAMI”','comment'=>5500,'bookmark'=>1],
+                ['img'=>'/slider/coffe-4.jfif','href'=>'/product.php','raiting'=>1.5,'text'=>'Сеть закусочных “DAMI”','comment'=>5500,'bookmark'=>1],
+                ['img'=>'/slider/coffe-4.jfif','href'=>'/product.php','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
+                ['img'=>'/slider/coffe-3.jfif','href'=>'/product.php','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
+                ['img'=>'/slider/coffe-4.jfif','href'=>'/product.php','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
+                ['img'=>'/slider/coffe-4.jfif','href'=>'/product.php','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
+                ['img'=>'/slider/coffe-3.jfif','href'=>'/product.php','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
+                ['img'=>'/slider/coffe-4.jfif','href'=>'/product.php','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
+                ['img'=>'/slider/coffe-4.jfif','href'=>'/product.php','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
+                ['img'=>'/slider/coffe-3.jfif','href'=>'/product.php','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
+                ['img'=>'/slider/coffe-4.jfif','href'=>'/product.php','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
+                ['img'=>'/slider/coffe-4.jfif','href'=>'/product.php','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
+                ['img'=>'/slider/coffe-3.jfif','href'=>'/product.php','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
+                ['img'=>'/slider/coffe-4.jfif','href'=>'/product.php','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
+                ['img'=>'/slider/coffe-4.jfif','href'=>'/product.php','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
+                ['img'=>'/slider/coffe-3.jfif','href'=>'/product.php','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
+                ['img'=>'/slider/coffe-4.jfif','href'=>'/product.php','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
+                ['img'=>'/slider/coffe-4.jfif','href'=>'/product.php','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
+                ['img'=>'/slider/coffe-3.jfif','href'=>'/product.php','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
+                ['img'=>'/slider/coffe-4.jfif','href'=>'/product.php','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0]];
             foreach($arrays as $array){
                 include('card/advice.php');
             }?>
@@ -73,12 +79,12 @@ include('blocks/slider-main.php'); ?>
 <ul class="mt-5" id="cl-events">
             <?
             $arrays = [
-                ['img'=>'/slider/coffe-1.jfif','href'=>'#','date'=>'5–6 марта 11:00–20:00','bookmark'=>0,'age_cens'=>'18+','text'=>'Сеть закусочных “DAMI”'],
-                ['img'=>'/slider/coffe-1.jfif','href'=>'#','date'=>'5–6 марта 11:00–20:00','bookmark'=>1,'age_cens'=>'3+','text'=>'Выставка каникулярных программ Language Fair 2020 ','price'=>'от 1000 ₽','bookmarks'=>0],
-                ['img'=>'/slider/coffe-2.jfif','href'=>'#','date'=>'5–6 марта 11:00–20:00','bookmark'=>0,'age_cens'=>'2+','text'=>'Выставка каникулярных программ Language Fair 2020','price'=>100,'bookmarks'=>0],
-                ['img'=>'/slider/coffe-1.jfif','href'=>'#','date'=>'5–6 марта 11:00–20:00','bookmark'=>1,'age_cens'=>'2.8+','text'=>'Сеть закусочных “DAMI”','price'=>10,'bookmarks'=>1],
-                ['img'=>'/slider/coffe-2.jfif','href'=>'#','date'=>'5–6 марта 11:00–20:00','bookmark'=>0,'age_cens'=>'1+','text'=>'Выставка каникулярных программ Language Fair 2020 ','price'=>190,'bookmarks'=>0],
-                ['img'=>'/slider/coffe-1.jfif','href'=>'#','date'=>'5–6 марта 11:00–20:00','bookmark'=>1,'age_cens'=>'1.5+','text'=>'Сеть закусочных “DAMI”','price'=>5500,'bookmarks'=>1]];
+                ['img'=>'/slider/coffe-1.jfif','href'=>'/product.php','date'=>'5–6 марта 11:00–20:00','bookmark'=>0,'age_cens'=>'18+','text'=>'Сеть закусочных “DAMI”'],
+                ['img'=>'/slider/coffe-1.jfif','href'=>'/product.php','date'=>'5–6 марта 11:00–20:00','bookmark'=>1,'age_cens'=>'3+','text'=>'Выставка каникулярных программ Language Fair 2020 ','price'=>'от 1000 ₽','bookmarks'=>0],
+                ['img'=>'/slider/coffe-2.jfif','href'=>'/product.php','date'=>'5–6 марта 11:00–20:00','bookmark'=>0,'age_cens'=>'2+','text'=>'Выставка каникулярных программ Language Fair 2020','price'=>100,'bookmarks'=>0],
+                ['img'=>'/slider/coffe-1.jfif','href'=>'/product.php','date'=>'5–6 марта 11:00–20:00','bookmark'=>1,'age_cens'=>'2.8+','text'=>'Сеть закусочных “DAMI”','price'=>10,'bookmarks'=>1],
+                ['img'=>'/slider/coffe-2.jfif','href'=>'/product.php','date'=>'5–6 марта 11:00–20:00','bookmark'=>0,'age_cens'=>'1+','text'=>'Выставка каникулярных программ Language Fair 2020 ','price'=>190,'bookmarks'=>0],
+                ['img'=>'/slider/coffe-1.jfif','href'=>'/product.php','date'=>'5–6 марта 11:00–20:00','bookmark'=>1,'age_cens'=>'1.5+','text'=>'Сеть закусочных “DAMI”','price'=>5500,'bookmarks'=>1]];
             foreach($arrays as $array){
                 include('card/events.php');
             }?>
@@ -91,31 +97,31 @@ include('blocks/slider-main.php'); ?>
 <ul class="mt-5 "  id="cl-advice2">
     <?
     $arrays = [
-        ['img'=>'/slider/coffe-4.jfif','text'=>'Сеть закусочных “DAMI”'],
-        ['img'=>'/slider/coffe-3.jfif','raiting'=>3,'text'=>'Сеть закусочных “DAMI”','comment'=>1900,'bookmark'=>0],
-        ['img'=>'/slider/coffe-4.jfif','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
-        ['img'=>'/slider/coffe-3.jfif','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
-        ['img'=>'/slider/coffe-4.jfif','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
-        ['img'=>'/slider/coffe-4.jfif','raiting'=>1.5,'text'=>'Сеть закусочных “DAMI”','comment'=>5500,'bookmark'=>1],
-        ['img'=>'/slider/coffe-4.jfif','raiting'=>1.5,'text'=>'Сеть закусочных “DAMI”','comment'=>5500,'bookmark'=>1],
-        ['img'=>'/slider/coffe-4.jfif','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
-        ['img'=>'/slider/coffe-3.jfif','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
-        ['img'=>'/slider/coffe-4.jfif','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
-        ['img'=>'/slider/coffe-4.jfif','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
-        ['img'=>'/slider/coffe-3.jfif','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
-        ['img'=>'/slider/coffe-4.jfif','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
-        ['img'=>'/slider/coffe-4.jfif','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
-        ['img'=>'/slider/coffe-3.jfif','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
-        ['img'=>'/slider/coffe-4.jfif','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
-        ['img'=>'/slider/coffe-4.jfif','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
-        ['img'=>'/slider/coffe-3.jfif','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
-        ['img'=>'/slider/coffe-4.jfif','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
-        ['img'=>'/slider/coffe-4.jfif','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
-        ['img'=>'/slider/coffe-3.jfif','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
-        ['img'=>'/slider/coffe-4.jfif','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
-        ['img'=>'/slider/coffe-4.jfif','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
-        ['img'=>'/slider/coffe-3.jfif','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
-        ['img'=>'/slider/coffe-4.jfif','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0]];
+        ['img'=>'/slider/coffe-4.jfif','href'=>'/catalog.php','href'=>'/catalog.php','text'=>'Сеть закусочных “DAMI”'],
+        ['img'=>'/slider/coffe-3.jfif','href'=>'/catalog.php','raiting'=>3,'text'=>'Сеть закусочных “DAMI”','comment'=>1900,'bookmark'=>0],
+        ['img'=>'/slider/coffe-4.jfif','href'=>'/catalog.php','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
+        ['img'=>'/slider/coffe-3.jfif','href'=>'/catalog.php','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
+        ['img'=>'/slider/coffe-4.jfif','href'=>'/catalog.php','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
+        ['img'=>'/slider/coffe-4.jfif','href'=>'/catalog.php','raiting'=>1.5,'text'=>'Сеть закусочных “DAMI”','comment'=>5500,'bookmark'=>1],
+        ['img'=>'/slider/coffe-4.jfif','href'=>'/catalog.php','raiting'=>1.5,'text'=>'Сеть закусочных “DAMI”','comment'=>5500,'bookmark'=>1],
+        ['img'=>'/slider/coffe-4.jfif','href'=>'/catalog.php','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
+        ['img'=>'/slider/coffe-3.jfif','href'=>'/catalog.php','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
+        ['img'=>'/slider/coffe-4.jfif','href'=>'/catalog.php','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
+        ['img'=>'/slider/coffe-4.jfif','href'=>'/catalog.php','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
+        ['img'=>'/slider/coffe-3.jfif','href'=>'/catalog.php','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
+        ['img'=>'/slider/coffe-4.jfif','href'=>'/catalog.php','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
+        ['img'=>'/slider/coffe-4.jfif','href'=>'/catalog.php','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
+        ['img'=>'/slider/coffe-3.jfif','href'=>'/catalog.php','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
+        ['img'=>'/slider/coffe-4.jfif','href'=>'/catalog.php','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
+        ['img'=>'/slider/coffe-4.jfif','href'=>'/catalog.php','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
+        ['img'=>'/slider/coffe-3.jfif','href'=>'/catalog.php','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
+        ['img'=>'/slider/coffe-4.jfif','href'=>'/catalog.php','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
+        ['img'=>'/slider/coffe-4.jfif','href'=>'/catalog.php','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
+        ['img'=>'/slider/coffe-3.jfif','href'=>'/catalog.php','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
+        ['img'=>'/slider/coffe-4.jfif','href'=>'/catalog.php','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0],
+        ['img'=>'/slider/coffe-4.jfif','href'=>'/catalog.php','raiting'=>2,'text'=>'Сеть закусочных “DAMI”','comment'=>100,'bookmark'=>0],
+        ['img'=>'/slider/coffe-3.jfif','href'=>'/catalog.php','raiting'=>2.8,'text'=>'Сеть закусочных “DAMI”','comment'=>10,'bookmark'=>1],
+        ['img'=>'/slider/coffe-4.jfif','href'=>'/catalog.php','raiting'=>1,'text'=>'Сеть закусочных “DAMI”','comment'=>190,'bookmark'=>0]];
     foreach($arrays as $array){
         include('card/advice.php');
     }?>
