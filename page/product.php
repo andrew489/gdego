@@ -59,11 +59,56 @@ include('blocks/slider-main.php'); ?>
                     <p>Reprehenderit qui aliquip elit esse ut sit cupidatat adipisicing aute veniam in. Sint nulla proident ea enim deserunt consectetur tempor ullamco laboris et. Sit exercitation nulla velit irure cillum et eu incididunt culpa veniam veniam ad. Excepteur voluptate ut elit non. Quis id mollit minim quis. Irure excepteur non occaecat in laboris ullamco Lorem dolor enim occaecat veniam ex labore et. Ullamco adipisicing proident incididunt minim enim ea cupidatat reprehenderit cillum non adipisicing id.
                         Ut reprehenderit sunt enim ex pariatur magna nostrud Lorem dolore eu. Quis mollit dolore do elit non proident id non do. Laborum minim tempor ut occaecat amet et labore.</p>
                 </div>
-                <div class="tab-pane fade" id="profile" role="tabpanel">...p</div>
+                <div class="tab-pane fade" id="profile" role="tabpanel">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="mb-4">Оценки и отзывы</h3>
+                            <div class="row mb-4">
+                                <div class="col-5">
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="radio" name="rating" value="5" id="rating5"><label type="radio" for="rating5" class="text-60"><span class="pl-1">Отлично</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="radio" name="rating" value="4" id="rating4"><label type="radio" for="rating4" class="text-60"><span class="pl-1">Очень хорошо</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="radio" name="rating" value="3" id="rating3"><label type="radio" for="rating3" class="text-60"><span class="pl-1">Неплохо</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="radio" name="rating" value="2" id="rating2"><label type="radio" for="rating2" class="text-60"><span class="pl-1">Плохо</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="radio" name="rating" value="1" id="rating1"><label type="radio" for="rating1" class="text-60"><span class="pl-1">Ужасно</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-7 raiting pr-0">
+                                        <span class="mdi mdi-star"></span>
+                                        <span class="mdi mdi-star"></span>
+                                        <span class="mdi mdi-star"></span>
+                                        <span class="mdi mdi-star"></span>
+                                        <span class="mdi mdi-star-outline"></span>
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <img src="/img/rca.png" class="w-100" />
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row mb-2">
         <div class="col-6"><? include('blocks/map-pannel.php'); ?></div>
         <div class="col-6">
             <div class="row">
@@ -81,6 +126,46 @@ include('blocks/slider-main.php'); ?>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="row mb-4">
+        <div class="col-12"><h2>Что есть поблизости?</h2></div>
+    </div>
+    <div class="row">
+        <div class="col-12 mb-4">
+            <? include('blocks/map-pannel.php');?>
+        </div>
+    </div>
+<? $array_figura= array(
+        array('a_text'=>'Все места','a_href'=>'#','title'=>'Зоопарки','tag'=>'h3',
+            'elements'=>array(
+                array('tag'=>'h3','title'=>'Title','src'=>'/img/figura/figura_1.png','alt'=>'...','text'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet morbi auctor turpis mattis mattis suscipit ipsum volutpat.'),
+                array('tag'=>'h3','title'=>'Title','src'=>'/img/figura/figura_2.png','alt'=>'...','text'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet morbi auctor turpis mattis mattis suscipit ipsum volutpat.'),
+                array('tag'=>'h3','title'=>'Title','src'=>'/img/figura/figura_3.png','alt'=>'...','text'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet morbi auctor turpis mattis mattis suscipit ipsum volutpat.'),
+                array('tag'=>'h3','title'=>'Title','src'=>'/img/figura/figura_1.png','alt'=>'...','text'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet morbi auctor turpis mattis mattis suscipit ipsum volutpat.'),
+            ),
+
+        ),
+        array('a_text'=>'Все места','a_href'=>'#','title'=>'Зоопарки','tag'=>'h3',
+            'elements'=>array(
+                array('tag'=>'h3','title'=>'Title','src'=>'/img/figura/figura_1.png','alt'=>'...','text'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet morbi auctor turpis mattis mattis suscipit ipsum volutpat.'),
+                array('tag'=>'h3','title'=>'Title','src'=>'/img/figura/figura_2.png','alt'=>'...','text'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet morbi auctor turpis mattis mattis suscipit ipsum volutpat.'),
+                array('tag'=>'h3','title'=>'Title','src'=>'/img/figura/figura_3.png','alt'=>'...','text'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet morbi auctor turpis mattis mattis suscipit ipsum volutpat.'),
+                array('tag'=>'h3','title'=>'Title','src'=>'/img/figura/figura_1.png','alt'=>'...','text'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet morbi auctor turpis mattis mattis suscipit ipsum volutpat.'),
+            ),
+
+        ),
+        array('a_text'=>'Все места','a_href'=>'#','title'=>'Зоопарки','tag'=>'h3',
+            'elements'=>array(
+                array('tag'=>'h3','title'=>'Title','src'=>'/img/figura/figura_1.png','alt'=>'...','text'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet morbi auctor turpis mattis mattis suscipit ipsum volutpat.'),
+                array('tag'=>'h3','title'=>'Title','src'=>'/img/figura/figura_2.png','alt'=>'...','text'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet morbi auctor turpis mattis mattis suscipit ipsum volutpat.'),
+                array('tag'=>'h3','title'=>'Title','src'=>'/img/figura/figura_3.png','alt'=>'...','text'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet morbi auctor turpis mattis mattis suscipit ipsum volutpat.'),
+                array('tag'=>'h3','title'=>'Title','src'=>'/img/figura/figura_1.png','alt'=>'...','text'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet morbi auctor turpis mattis mattis suscipit ipsum volutpat.'),
+            ),
+
+        ),
+);
+    include('card/figura_card_mini.php'); ?>
+
     <script>
         $(function () {
             $('#myList a:last-child').tab('show')
@@ -89,3 +174,4 @@ include('blocks/slider-main.php'); ?>
     <link type="text/css" rel="stylesheet" href="/css/lightslider.css" />
     <script src="/js/lightslider.js"></script>
 
+</div>

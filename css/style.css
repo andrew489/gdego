@@ -15,6 +15,13 @@ h1 {
     font-size: 40px;
     line-height: 49px;
 }
+h2 {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+}
 h3 {
     font-family: "Montserrat Alternates";
     font-style: normal;
@@ -705,4 +712,7 @@ input[type="checkbox"]:checked + label[type="checkbox"]:before {
 }
 .tab-pane p,.tab-pane  {
     color: #211D18;
+}
+.container.product .map-pannel {
+    margin-top: 0 !important;
 }

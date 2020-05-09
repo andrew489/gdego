@@ -18,6 +18,6 @@
     </div>
     <div class="row align-items-end no-gutters">
         <div class="col-1"><span class="mdi  brown-color mdi-bookmark<?=!$array['bookmark']?'-outline':''?> mdi-24px"></span> </div>
-        <div class="col-auto ml-auto"><a class="btn brown--default text-white">Подробнее</a></div>
+        <div class="col-auto ml-auto"><a class="btn brown--default text-white" href="<?=$array['href']?>">Подробнее</a></div>
     </div>
 </li>
