@@ -17,7 +17,7 @@ include('blocks/slider-main.php'); ?>
            include('card/services-small.php');
         }?>
     </div>
-    <div class="more_places mt-5 brown-color>
+    <div class="more_places mt-5 brown-color">
         <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Еще места
         </a>
