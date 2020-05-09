@@ -1,9 +1,3 @@
-header.homepage {
-    position: absolute;
-    top:0;
-    z-index: 1;
-    width: 100%;
-}
 #carouselHome {background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));  max-height: 900px;  }
 #carouselHome img { filter: brightness(.5);  max-height: 900px;}
 .carousel .carousel-caption {
@@ -24,10 +18,13 @@ header.homepage {
 .carousel .carousel-caption p { margin-top: 50px}
 .search-pannel {
     position: relative;
-    padding: 32px 48px !important;
-    margin-top: -88px;
     background: #FFFFFF;
 }
 .search-pannel .btn:hover {
     color:white;
+}
+@media (min-width: 768px) {
+    .search-pannel {
+        margin-top: -88px;
+    }
 }

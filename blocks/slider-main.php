@@ -2,7 +2,7 @@
 $block_align =isset($array['align-text'])?'align-items-'.$array['align-text'].(isset($array['width-text'])?' '.$array['width-text']:''):'';
 $text_align=!isset($array['align-text'])&&isset($array['width-text'])?$array['width-text']:'';
 ?>
-<div id="<?=$array['id']?>" class="carousel slide flex-wrap" data-ride="carousel">
+<div id="<?=$array['id']?>" class="carousel slide flex-wrap d-none d-md-block" data-ride="carousel">
     <ol class="carousel-indicators">
         <? foreach ($array['elements'] as $k=>$e){?>
             <li data-target="#carouselExampleCaptions" data-slide-to="<?=$k?>>"<?=$k==0?' class="active"':''?>></li>

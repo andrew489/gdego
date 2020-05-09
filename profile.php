@@ -8,7 +8,7 @@
 <body>
 <?php
 include('blocks/header.php');
-include('page/search.php');
+include('page/profile.php');
 include('blocks/footer.php');
 ?>
 <link rel="stylesheet" href="/css/bootstrap.min.css" />

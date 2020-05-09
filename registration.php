@@ -7,10 +7,9 @@
 </head>
 <body>
 <?php
-include('header.php');
-include('sidebar.php');
+include('blocks/header.php');
 include('page/registration.php');
-include('footer.php');
+include('blocks/footer.php');
 ?>
 <link rel="stylesheet" href="/css/bootstrap.min.css" />
 <link rel="stylesheet" href="/css/materialdesignicons.min.css" />
