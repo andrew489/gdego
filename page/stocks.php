@@ -19,13 +19,7 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
-                            <span class="mdi mdi-star"></span>
-                            <span class="mdi mdi-star"></span>
-                            <span class="mdi mdi-star"></span>
-                            <span class="mdi mdi-star-outline"></span>
-                            <span class="mdi mdi-star-outline"></span>
-                        </div>
+                        <? $raitting=4; include('blocks/raitting.php'); ?>
                     </div>
                 </div> 
                     <p class="mt-4 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ornare vulputate sed imperdiet nec purus. Ullamcorper tortor nisi, sed viverra pulvinar feugiat ante. Bibendum cum erat libero aliquet ipsum porta in amet, feugiat. Mattis placerat integer donec pharetra dictum. Egestas senectus eget vitae, id viverra purus rhoncus. Quis viverra dui magna in ut.</p>
@@ -45,14 +39,7 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
-                            <span class="mdi mdi-star"></span>
-                            <span class="mdi mdi-star"></span>
-                            <span class="mdi mdi-star"></span>
-                            <span class="mdi mdi-star-outline"></span>
-                            <span class="mdi mdi-star-outline"></span>
-                        </div>
-                    </div>
+                        <? $raitting=4; include('blocks/raitting.php'); ?>                    </div>
                 </div> 
                     <p class="mt-4 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ornare vulputate sed imperdiet nec purus. Ullamcorper tortor nisi, sed viverra pulvinar feugiat ante. Bibendum cum erat libero aliquet ipsum porta in amet, feugiat. Mattis placerat integer donec pharetra dictum. Egestas senectus eget vitae, id viverra purus rhoncus. Quis viverra dui magna in ut.</p>
             </div>
@@ -71,13 +58,7 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
-                            <span class="mdi mdi-star"></span>
-                            <span class="mdi mdi-star"></span>
-                            <span class="mdi mdi-star"></span>
-                            <span class="mdi mdi-star-outline"></span>
-                            <span class="mdi mdi-star-outline"></span>
-                        </div>
+                        <? $raitting=4; include('blocks/raitting.php'); ?>
                     </div>
                 </div> 
                     <p class="mt-4 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ornare vulputate sed imperdiet nec purus. Ullamcorper tortor nisi, sed viverra pulvinar feugiat ante. Bibendum cum erat libero aliquet ipsum porta in amet, feugiat. Mattis placerat integer donec pharetra dictum. Egestas senectus eget vitae, id viverra purus rhoncus. Quis viverra dui magna in ut.</p>
@@ -97,7 +78,7 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
+                        <div class="raitting d-none d-sm-block">
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
@@ -123,7 +104,7 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
+                        <div class="raitting d-none d-sm-block">
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
@@ -149,7 +130,7 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
+                        <div class="raitting d-none d-sm-block">
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
@@ -175,7 +156,7 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
+                        <div class="raitting d-none d-sm-block">
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
@@ -201,7 +182,7 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
+                        <div class="raitting d-none d-sm-block">
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
@@ -227,7 +208,7 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
+                        <div class="raitting d-none d-sm-block">
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>

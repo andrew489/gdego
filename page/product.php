@@ -62,47 +62,21 @@ include('blocks/slider-main.php'); ?>
                 <div class="tab-pane fade" id="profile" role="tabpanel">
                     <div class="row">
                         <div class="col-12">
-                            <h3 class="mb-4">Оценки и отзывы</h3>
-                            <div class="row mb-4">
-                                <div class="col-5">
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="radio" name="rating" value="5" id="rating5"><label type="radio" for="rating5" class="text-60"><span class="pl-1">Отлично</span></label>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="radio" name="rating" value="4" id="rating4"><label type="radio" for="rating4" class="text-60"><span class="pl-1">Очень хорошо</span></label>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="radio" name="rating" value="3" id="rating3"><label type="radio" for="rating3" class="text-60"><span class="pl-1">Неплохо</span></label>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="radio" name="rating" value="2" id="rating2"><label type="radio" for="rating2" class="text-60"><span class="pl-1">Плохо</span></label>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="radio" name="rating" value="1" id="rating1"><label type="radio" for="rating1" class="text-60"><span class="pl-1">Ужасно</span></label>
-                                        </div>
-                                    </div>
-                                    <div class="col-7 raiting pr-0">
-                                        <span class="mdi mdi-star"></span>
-                                        <span class="mdi mdi-star"></span>
-                                        <span class="mdi mdi-star"></span>
-                                        <span class="mdi mdi-star"></span>
-                                        <span class="mdi mdi-star-outline"></span>
-                                    </div>
+                            <? include('blocks/add_rating_review.php'); ?>
+                            <? include('blocks/add_review.php');
+                            $comments = array(
+                            array('name'=>'Обоскалов Андрей','date'=>'08.05.2020 13:25','text'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non ac, nunc, habitasse pulvinar nisl eu lobortis. Nunc quis placerat iaculis gravida nunc, fermentum quam mattis tellus. Lectus cursus et diam praesent enim. Magnis rhoncus neque, sed vel. Enim orci, eget dictum diam a a. Eget phasellus vitae sapien nisi est aliquam sed enim, erat. Eget ullamcorper eget luctus morbi sapien mattis. Lorem nulla integer dui mauris urna nibh diam. Pharetra quis aliquet massa, sit viverra platea molestie. Molestie sit cras semper et. Arcu faucibus integer augue venenatis auctor facilisi pulvinar volutpat enim. Leo pharetra bibendum posuere quisque amet sit porttitor et. Montes, in nisi donec volutpat. Convallis fermentum scelerisque scelerisque neque.
+Sem enim consectetur etiam quam sed arcu, nisl. At pellentesque fringilla duis a posuere rhoncus in duis. Facilisis morbi ut vitae ut. Magna leo, metus porttitor blandit cras. Quisque massa faucibus aliquam vitae id egestas odio. Egestas cursus libero amet sed amet mauris sit. Netus cursus viverra in condimentum. Ut senectus aliquam duis leo gravida leo egestas. Neque sed risus sit mus.'),
+                            array('name'=>'Обоскалов Андрей','date'=>'08.05.2020 13:25','text'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non ac, nunc, habitasse pulvinar nisl eu lobortis. Nunc quis placerat iaculis gravida nunc, fermentum quam mattis tellus.'),
+                            );
+                            foreach ($comments as $v){?>
+                                <div class="py-4">
+                               <? include('card/comment.php'); ?>
                                 </div>
-                                <div class="col-7">
-                                    <img src="/img/rca.png" class="w-100" />
-                                </div>
-                            </div>
-                       </div>
+                            <?
+                            }
+                            ?>
+                        </div>
                     </div>
                 </div>
             </div>
