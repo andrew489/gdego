@@ -4,9 +4,9 @@
             <div class="col-sm-6 col-12">
                 <h2 class="mb-3 pb-3">Войти на сайт</h2>
                 <p class="mb-3 pb-3">Pariatur ex ipsum sit cillum eiusmod exercitation exercitation velit deserunt excepteur veniam nostrud.</p>
-                <a href="#" class="btn shadow text-white brown--default mr-sm-4"> <span class="mdi mdi-google mdi-24px"></span> Войти с помощью google</a>
-                <a href="#" class="btn shadow mr-sm-4 mt-2 mt-sm-0 bg-light ml-sm-0 ml-5"><span class="mdi mdi-twitter mdi-24px brown-color"></span></a>
-                <a href="#" class="btn shadow bg-light mt-2 mt-sm-0 ml-sm-0 ml-5"><span class="mdi mdi-facebook mdi-24px brown-color"></span> </a>
+                <a href="#" class="btn shadow text-white brown--default mr-sm-4"> <span class="mdi mdi-google mdi-24px mr-3"></span> Войти с помощью google</a>
+                <a href="#" class="btn bg_btn shadow mr-sm-4 mt-2 mt-sm-0 ml-sm-0 ml-5"><span class="mdi mdi-twitter mdi-24px brown-color"></span></a>
+                <a href="#" class="btn bg_btn  shadow mt-2 mt-sm-0 ml-sm-0 ml-5"><span class="mdi mdi-facebook mdi-24px brown-color"></span> </a>
                 
                 <small class="form-text text-muted mb-3 pb-3 pt-3 mt-3 text-center">или</small>
                 
