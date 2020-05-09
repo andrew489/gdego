@@ -3,14 +3,17 @@
         <div class="fixed-top">
         <div class="container">
             <div class="row align-items-center topnav">
-                <a class="col-sm-12 col-md-3 logo" href="/">
+                <a class="col-sm-12 col-md-3 logo d-none d-sm-block" href="/">
+                    GDE<span>GO</span>
+                </a>
+                <a class="col-sm-12 col-md-3 logo d-block d-sm-none text-center" href="/">
                     GDE<span>GO</span>
                 </a>
                 <div class="col-md-4 col-sm-12">
                         <span class="mdi mdi-magnify search-icon"></span>
                         <input name="search" type="text" class="search col-sm-12">
                 </div>
-                <div class="col-md-5 col-sm-12">
+                <div class="col-md-5 col-sm-12 ">
                     <? include('blocks/login-pannel.php'); ?>
                 </div>
             </div>
@@ -20,12 +23,12 @@
     <div class="panel-menu">
         <div class="container">
             <div class="row align-items-center  topbar">
-                <div class="col-sm-12 col-md-3 select-city">
+                <div class="col-sm-12 col-md-3 select-city d-none d-sm-block">
                     <span class="mdi mdi-map-marker local"></span>
                     Санкт-Петербург
                     <span class="mdi mdi-chevron-down select"></span>
                 </div>
-                <div class="col-md-5 col-sm-12 menu">
+                <div class="col-md-5 col-sm-12 menu d-none d-sm-inline-block">
                     <div class="btn-group" role="group">
                         <a id="btnGroupDrop1" href="#" type="button" class="btn" data-toggle="collapse" data-target="#dropdown-menu" aria-expanded="true" aria-controls="collapseOne">
                             <svg class="menu-icon brown-color" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,14 +36,23 @@
                             </svg>
                             Меню
                         </a>
+                        
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12 menu d-inline-block d-sm-none">
+                    <div class="btn-group menu_mobile" role="group">
+                        <a id="btnGroupDrop1" href="#" type="button" class="btn" data-toggle="collapse" data-target="#dropdown-menu" aria-expanded="true" aria-controls="collapseOne">
+                        <span class="mdi mdi-menu "></span>
+                        </a>
+                        
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 contacts pl-0">
-                    <span class="email pr-4">
+                    <span class="email pr-4 d-none d-sm-inline-block">
                         example@gdego.ru
                         <span class="mdi mdi-email-open email-icon brown-color"></span>
                     </span>
-                    <span class="phone">
+                    <span class="phone d-none d-sm-inline-block">
                         +7 (225) 555-0118
                         <span class="mdi mdi-cellphone-iphone phone-icon brown-color"></span>
                     </span>

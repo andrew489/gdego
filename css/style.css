@@ -765,3 +765,17 @@ input[type="checkbox"]:checked + label[type="checkbox"]:before {
 .container.product .map-pannel {
     margin-top: 0 !important;
 }
+
+.login_mobile.mdi {
+    position: absolute;
+    bottom: 52px;
+    font-size: 48px;
+    right: 4px
+}
+ .menu_mobile {
+    position: absolute;
+    bottom: 58px;
+    z-index: 2000;
+    width: 48px;
+    height: 48px;
+}
