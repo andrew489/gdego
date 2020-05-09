@@ -85,12 +85,8 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
-                            <span class="mdi mdi-star"></span>
-                            <span class="mdi mdi-star"></span>
-                            <span class="mdi mdi-star"></span>
-                            <span class="mdi mdi-star-outline"></span>
-                            <span class="mdi mdi-star-outline"></span>
+                        <div class="d-none d-sm-block">
+                            <? $raitting=4; include('blocks/raitting.php'); ?>
                         </div>
                     </div>
                 </div> 
@@ -111,12 +107,8 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
-                            <span class="mdi mdi-star"></span>
-                            <span class="mdi mdi-star"></span>
-                            <span class="mdi mdi-star"></span>
-                            <span class="mdi mdi-star-outline"></span>
-                            <span class="mdi mdi-star-outline"></span>
+                        <div class="d-none d-sm-block">
+                            <? $raitting=4; include('blocks/raitting.php'); ?>
                         </div>
                     </div>
                 </div> 
@@ -137,7 +129,7 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
+                        <div class="raitting d-none d-sm-block">
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
@@ -163,7 +155,7 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
+                        <div class="raitting d-none d-sm-block">
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
@@ -189,7 +181,7 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
+                        <div class="raitting d-none d-sm-block">
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
@@ -215,7 +207,7 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
+                        <div class="raitting d-none d-sm-block">
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
@@ -241,7 +233,7 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
+                        <div class="raitting d-none d-sm-block">
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
@@ -267,7 +259,7 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
+                        <div class="raitting d-none d-sm-block">
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
@@ -293,7 +285,7 @@
                         </a>
                     </div>
                     <div class="col-2 text-center pr-0 ">
-                        <div class="raiting d-none d-sm-block">
+                        <div class="raitting d-none d-sm-block">
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>
                             <span class="mdi mdi-star"></span>

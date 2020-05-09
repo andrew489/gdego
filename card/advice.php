@@ -4,11 +4,8 @@
         <div class="col">
             <p class="mt-3 mb-2 text-100"><?=$array['text']?></p>
             <div class="row mt-1">
-                <div class="col-7 raiting pr-0">
-                    <? $raitings=round($array['raiting']);
-                    for($i=0;$i<5;$i++){?>
-                        <span class="mdi mdi-star<?=$raitings>=$i?'':'-outline'?>"></span>
-                    <? }?>
+                <div class="col-7 pr-0">
+                    <? $raitting=4; include('blocks/raitting.php'); ?>
                 </div>
                 <div class="col-5 text-small text-60 text-right pl-0">
                     <?=$array['comment']?$array['comment']:'0'?> отзывов
