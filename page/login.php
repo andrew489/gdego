@@ -4,9 +4,9 @@
             <div class="col-sm-6 col-12">
                 <h2 class="mb-3 pb-3">Войти на сайт</h2>
                 <p class="mb-3 pb-3">Pariatur ex ipsum sit cillum eiusmod exercitation exercitation velit deserunt excepteur veniam nostrud.</p>
-                <a href="#" class="btn shadow text-white brown--default mr-4"> <span class="mdi mdi-google mdi-24px"></span> Войти с помощью google</a>
-                <a href="#" class="btn shadow mr-4 bg-light"><span class="mdi mdi-twitter mdi-24px brown-color"></span></a>
-                <a href="#" class="btn shadow bg-light"><span class="mdi mdi-facebook mdi-24px brown-color"></span> </a>
+                <a href="#" class="btn shadow text-white brown--default mr-sm-4"> <span class="mdi mdi-google mdi-24px"></span> Войти с помощью google</a>
+                <a href="#" class="btn shadow mr-sm-4 mt-2 mt-sm-0 bg-light ml-sm-0 ml-5"><span class="mdi mdi-twitter mdi-24px brown-color"></span></a>
+                <a href="#" class="btn shadow bg-light mt-2 mt-sm-0 ml-sm-0 ml-5"><span class="mdi mdi-facebook mdi-24px brown-color"></span> </a>
                 
                 <small class="form-text text-muted mb-3 pb-3 pt-3 mt-3 text-center">или</small>
                 
@@ -22,7 +22,7 @@
                     <div class="form-check pl-0">
                         <input type="checkbox" name="agreement" class="form-check-input" id="agreement" valio="1">
                         <label for="agreement" type="checkbox" >
-                            <span class="form-check-label mb-4 d-flex" >Я принимаю условия <a href="#" class="brown-color align-middle">&nbsp;<ins>политики конфиденциальности.</ins></a>
+                            <span class="form-check-label mb-4 d-inline-block" >Я принимаю условия <a href="#" class="brown-color align-middle">&nbsp;<ins>политики конфиденциальности.</ins></a>
                             </span>
                         </label>
                         
@@ -33,7 +33,7 @@
             </div><!--col-sm-6-->
 
             <div class="col-sm-6 col-12">
-                <div class="bg_login_site"></div>
+                <div class="bg_login_site d-none d-sm-block"></div>
                 
             </div>
         </div> <!--row--> 
