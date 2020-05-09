@@ -21,7 +21,7 @@ include('blocks/slider-main.php'); ?>
         </div>
     </div>
 
-    <div class="row pl-3 mb-3">
+    <div class="row pl-0 pl-md-3 mb-3">
         <div class="col-sm-4 sidebar"><?
             $viewpoints = array(
                     array('name'=>'Обоскалов Андрей','date'=>'08.05.2020 13:25','text'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non ac, nunc, habitasse pulvinar nisl eu lobortis. Nunc quis placerat iaculis gravida nunc, fermentum quam mattis tellus.'),
@@ -29,7 +29,7 @@ include('blocks/slider-main.php'); ?>
             );
             include('blocks/viewpoint.php'); ?></div>
         <div class="col-sm-8">
-            <div class="row"><div class="col ml-3 galery">
+            <div class="row"><div class="col ml-0 ml-md-3 galery">
                     <?
                     $gallery=array(
                             'id'=>'imageGallery',
@@ -83,8 +83,8 @@ Sem enim consectetur etiam quam sed arcu, nisl. At pellentesque fringilla duis a
         </div>
     </div>
     <div class="row mb-2">
-        <div class="col-6"><? include('blocks/map-pannel.php'); ?></div>
-        <div class="col-6">
+        <div class="col-12 col-md-6"><? include('blocks/map-pannel.php'); ?></div>
+        <div class="col-12 col-md-6">
             <div class="row">
                 <div class="col-12 mb-2">
                     <span class="mdi mdi-home text-60 mdi-24px mr-2"></span><span>2496 Miller Ave undefined Lansing, Illinois 67658 United States</span>

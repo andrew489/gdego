@@ -1,7 +1,7 @@
-<div class="row mt-4">
-    <div class="col-auto"><?=isset($v['img'])?$v['img']:'<span class="mdi mdi-account-circle mdi-48px grey"></span>'?>
+<div class="row mt-4 position-relivate">
+    <div class="col-auto d-inline-block"><?=isset($v['img'])?$v['img']:'<span class="mdi mdi-account-circle mdi-48px grey"></span>'?>
     </div>
-    <div class="col-auto">
+    <div class="col d-inline-block">
         <div class="row">
             <div class="col-12">
                 <h4><?=$v['name']?></h4>

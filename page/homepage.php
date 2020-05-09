@@ -25,7 +25,7 @@ include('blocks/search-pannel.php'); ?>
            include('card/services-small.php');
         }?>
     </div>
-    <div class="more_places mt-3 mt-md-5 text-center text-md-right brown-color mb-3 mb-md-0>
+    <div class="more_places mt-3 mt-md-5 text-center text-md-right brown-color mb-3 mb-md-0">
         <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Еще места
         </a>

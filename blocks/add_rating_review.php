@@ -1,7 +1,7 @@
 <div class="rating_review">
     <h3 class="mb-4">Оценки и отзывы</h3>
     <div class="row mb-4">
-        <div class="col-5">
+        <div class="col col-md-5">
             <div class="row">
                 <div class="col">
                     <input type="radio" name="raitting" value="5" id="rating5" checked><label type="radio" for="rating5" class="text-60"><span class="pl-1">Отлично</span></label>
@@ -29,7 +29,7 @@
             </div>
             <? $raitting=4; include('blocks/raitting.php'); ?>
         </div>
-        <div class="col-7">
+        <div class="col-7 d-none d-md-flex">
             <img src="/img/rca.png" class="w-100" />
         </div>
     </div>

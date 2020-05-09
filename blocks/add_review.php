@@ -7,11 +7,11 @@
     <div class="row mb-4">
         <div class="col-sm-6">
             <span class="text-100">Имя</span>
-            <input type="text" placeholder="Представьтесь, пожалуйста" name="name" class="w-100 mt-2">
+            <input type="text" placeholder="Представьтесь, пожалуйста" name="name" class="w-100 mt-2 mb-3 mb-md-0">
         </div>
         <div class="col-sm-6">
             <span class="text-100">Email</span>
-            <input type="text" placeholder="Ваш контактный email" name="email" class="w-100 mt-2">
+            <input type="text" placeholder="Ваш контактный email" name="email" class="w-100 mt-2 ">
         </div>
     </div>
     <div class="row mb-4">

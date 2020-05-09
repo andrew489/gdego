@@ -1,4 +1,4 @@
-<section class="stocks">
+<section class="stocks mt-md-4 mt-3">
     <div class="container">
         <h2>Акции и скидки</h2>
         <p class="mb-sm-4 pb-3">Pariatur ex ipsum sit cillum eiusmod exercitation exercitation velit deserunt excepteur veniam nostrud.</p>

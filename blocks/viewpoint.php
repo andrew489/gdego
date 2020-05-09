@@ -1,5 +1,5 @@
 <div class="row">
-<div class="col-sm-10 offset-1">
+<div class="col col-md-10 offset-md-1">
 <div class="row">
     <div class="col-12">
         <h4 class="mt-3 mb-3">Мнения пользователей</h4>

@@ -1,4 +1,4 @@
-<section class="registration_user">
+<section class="registration_user  mt-md-4 mt-3">
     <div class="container">
         <h2 class="mb-3 pb-3">Регистрация</h2>
         <p class="mb-3 pb-3">Pariatur ex ipsum sit cillum eiusmod exercitation exercitation velit deserunt excepteur veniam nostrud.</p>

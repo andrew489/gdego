@@ -77,7 +77,7 @@ $subs=[
         <div id="submenu<?=$array['id']?>" class="container submenu border-0 collapse text-100 pt-3  pb-3">
             <div class="row">
                 <? foreach($array['submenu'] as $sub){?>
-                    <div class="col-sm-2">
+                    <div class="col-auto">
                         <a href="<?=$sub['href']?>" class="dropdown-item text-100 py-2 px-3<?=' '.$sub['active']?>"><?=$sub['name']?></a>
                     </div>
                 <? } ?>

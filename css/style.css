@@ -29,7 +29,7 @@ h3 {
     font-size: 24px;
     line-height: 30px;
 }
-h4 {
+h4, .h4 {
     font-family: "Montserrat Alternates";
     font-style: normal;
     font-weight: 500;
@@ -212,9 +212,6 @@ section .search-icon{
 }
 
 /**********stocks************/
-.stocks {
-    padding-top: 70px;
-}
 
 .stocks h2 {
     margin-bottom: 32px;
@@ -249,9 +246,7 @@ section .search-icon{
 }
 
 /**********search************/
-.stocks {
-    padding-top: 70px;
-}
+
 
 .search h2 {
     margin-bottom: 32px;
@@ -284,9 +279,6 @@ section .search-icon{
     background: #66503E;
 }
 /**********registration************/
-.registration {
-    padding-top: 70px;
-}
 
 .registration_card {
     padding-top: 32px;
@@ -310,9 +302,6 @@ section .search-icon{
 
 
 /**********registration_comp2************/
-.registration_comp {
-    padding-top: 70px;
-}
 
 .registration_comp .btn {
     background: #DBD0C3;
@@ -326,9 +315,7 @@ section .search-icon{
 }
 
 /**********registration_user************/
-.registration_user {
-    padding-top: 70px;
-}
+
 .registration_user .btn {
     background: #DBD0C3;
     text-transform: uppercase;
@@ -736,4 +723,34 @@ input[type="checkbox"]:checked + label[type="checkbox"]:before {
     z-index: 2000;
     width: 48px;
     height: 48px;
+}
+ .mdi-32px {
+     font-size: 32px;
+ }
+
+ a:hover, a:active, a:focus {
+     color:#847768;
+ }
+
+@media (max-width: 768px) {
+    .fixed-top {
+        position: relative !important;
+    }
+    header .logo {
+        font-size: 26px !important;
+    }
+}
+
+header .login .dropdown-toggle::after {margin-left:32px;}
+.bell1::after {
+    background: #FF5252;
+    width: 7px;
+    height: 6px;
+    border-radius: 5px;
+    content: ' ';
+    top: -1px;
+    left: 29px;
+    border: 1px solid #fff;
+    z-index: 99;
+    position: absolute;
 }

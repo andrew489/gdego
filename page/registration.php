@@ -1,7 +1,7 @@
-<section class="registration">
+<section class="registration mt-md-4 mt-3">
     <div class="container">
         <h2 class="mb-3 pb-3">Регистрация</h2>
-        <p class="col-12 mb-0 mb-sm-3 pb-sm-3 pl-0" >Pariatur ex ipsum sit cillum eiusmod exercitation exercitation velit deserunt excepteur veniam nostrud.</p>
+        <p class="col-12 mb-0 mb-sm-3 pb-sm-3 pl-0">Pariatur ex ipsum sit cillum eiusmod exercitation exercitation velit deserunt excepteur veniam nostrud.</p>
         <div class="row d-flex justify-content-center pt-sm-3">
             <div class="col-sm-5 col-12  mt-4 mr-0 mr-sm-3 pt-sm-3">
                 <div class="bg-white p-4">

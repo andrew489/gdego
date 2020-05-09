@@ -3,12 +3,17 @@
         <div class="fixed-top">
         <div class="container">
             <div class="row align-items-center topnav">
-                <a class="col-sm-12 col-md-3 logo d-none d-sm-block" href="/">
+                <div class="col-auto menu d-inline-block d-md-none">
+                    <div class="btn-group" role="group">
+                        <a id="btnGroupDrop1" href="#" class="btn" data-toggle="collapse" data-target="#dropdown-menu" aria-expanded="true" aria-controls="collapseOne">
+                            <span class="mdi mdi-menu"></span>
+                        </a>
+                    </div>
+                </div>
+                <a class="col col-md-3 logo d-inline-block text-center px-1 px-md-3" href="/">
                     GDE<span>GO</span>
                 </a>
-                <a class="col-sm-12 col-md-3 logo d-block d-sm-none text-center" href="/">
-                    GDE<span>GO</span>
-                </a>
+                <? include('blocks/login-pannel-mini.php'); ?>
                 <div class="col-md-4 col-sm-12">
                         <span class="mdi mdi-magnify search-icon"></span>
                         <input name="search" type="text" class="search col-sm-12">
@@ -22,8 +27,8 @@
     </div>
     <div class="panel-menu">
         <div class="container">
-            <div class="row align-items-center  topbar">
-                <div class="col-sm-12 col-md-3 select-city d-none d-sm-block">
+            <div class="row align-items-center  topbar  d-none d-md-flex">
+                <div class="col-sm-12 col-md-3 select-city">
                     <span class="mdi mdi-map-marker local"></span>
                     Санкт-Петербург
                     <span class="mdi mdi-chevron-down select"></span>
@@ -35,14 +40,6 @@
                                 <path d="M3 6H21V8H3V6ZM3 11H17V13H3V11ZM3 16H14V18H3V16Z" fill="#847768"/>
                             </svg>
                             Меню
-                        </a>
-                        
-                    </div>
-                </div>
-                <div class="col-md-5 col-sm-12 menu d-inline-block d-sm-none">
-                    <div class="btn-group menu_mobile" role="group">
-                        <a id="btnGroupDrop1" href="#" class="btn" data-toggle="collapse" data-target="#dropdown-menu" aria-expanded="true" aria-controls="collapseOne">
-                        <span class="mdi mdi-menu "></span>
                         </a>
                         
                     </div>

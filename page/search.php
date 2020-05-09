@@ -1,5 +1,5 @@
-<section class="search pt-5">
-    <div class="container pt-4">
+<section class="search  mt-md-4 mt-3">
+    <div class="container">
         <h2 class="d-none d-sm-block">Результаты поиска</h2>
         <h3 class="d-block d-sm-none mt-3" >Результаты поиска</h3>
         <p class="mb-4">Поиск по {{ запрос / тег }} {{ item.search }}  pariatur ex ipsum sit cillum eiusmod exercitation exercitation velit deserunt excepteur veniam nostrud.</p>

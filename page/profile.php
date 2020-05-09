@@ -1,4 +1,4 @@
-<section class="profile">
+<section class="profile mt-3 mt-md-5">
     <div class="container">
         <h2 class="d-none d-sm-block">Добро пожаловать в личный кабинет</h2>
         <h3 class="d-block d-sm-none">Добро пожаловать в личный кабинет</h3>
