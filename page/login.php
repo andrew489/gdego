@@ -38,7 +38,7 @@
                         </label>
                         
                     </div>
-                    <button type="submit" class="btn shadow text-white brown--default">Войти</button>
+                    <button type="submit" class="btn shadow text-white brown--default">Войти2</button>
                     <a href="#" class="brown-color float-right"><ins class="d-flex pt-2">Забыли пароль?</ins></a>
                 </form>
             </div><!--col-sm-6-->
