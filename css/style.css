@@ -278,6 +278,29 @@ section .search-icon{
 .brown--default-focus:hover {
     background: #66503E;
 }
+
+/**********custom_page************/
+
+.custom_page .mdi-help {
+    background: rgba(33, 29, 24, 0.6);
+    padding: 0 3px;
+    font-size: 17px;
+}
+.custom_page .mdi-border-color {
+    color: rgba(0, 0, 0, 0.1);
+}
+.custom_page .border_upload {
+    border: dashed;
+    padding-top: 221px;
+    padding-bottom: 221px;
+}
+.custom_page .border_img {
+    border: dashed;
+    width: 255px;
+    height: 143px;
+    
+}
+
 /**********registration************/
 
 .registration_card {
