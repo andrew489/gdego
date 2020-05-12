@@ -21,7 +21,7 @@
                 </div>
             </div>
             <? $array=array('href'=>'#','alt'=>'...','src'=>'../img/banner.png');?>
-            <div class="row d-none d-sm-block"><div class="col ml-3 mb-3"><div class="row"><div class="col"><? include('card/banner.php')?></div></div></div></div>
+            <div class="mb-3 pb-3 ml-3"><? include('card/banner.php')?></div>
             <div class="row">
                 <div class="col ml-0 ml-sm-3 mt-3">
                     <h3 class="mb-3 d-none d-sm-block">{{ city.name }}: Лучшие {{ category.name }} в городе</h3>

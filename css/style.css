@@ -123,7 +123,7 @@ header .panel-menu .menu .btn {
 header .panel-menu .contacts {
     text-align: right;
 }
-header .login {float: right;}
+header .login {float: right;cursor: pointer}
 label {
     color: #211D18;
 }
@@ -703,9 +703,8 @@ input[type="checkbox"]:checked + label[type="checkbox"]:before {
     margin-bottom: 8px;
 }
 .maps + .footer-menu {margin-top:0;}
-#carouselProduct {
-    height: 112px;
-}
+
+
 #carouselProduct .carousel-caption {
     top: 25%;
 }
@@ -780,10 +779,10 @@ header .login .dropdown-toggle::after {margin-left:32px;}
     background: #FF5252;
     width: 7px;
     height: 6px;
-    border-radius: 5px;
+    border-radius: 25px;
     content: ' ';
     top: -1px;
-    left: 29px;
+    margin-left: -8px;
     border: 1px solid #fff;
     z-index: 99;
     position: absolute;

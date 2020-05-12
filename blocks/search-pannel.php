@@ -6,14 +6,12 @@
                 <span class="pb-2 d-block">Город</span>
                 <input type="text" placeholder="Начните вводить название города" class="w-100 mb-3 mb-md-0">
             </div>
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-5">
                 <span class="pb-2 d-block">Заведение</span>
                 <input type="text" placeholder="Начните вводить адрес или название заведения"  class="w-100 mb-3 mb-md-0">
             </div>
-            <div class="col-sm-12 col-md-auto align-self-end">
-                <div class="row pl-3 pl-sm-2 pl-md-4">
-                    <a class="btn brown--default text-white">Найти заведение</a>
-                </div>
+            <div class="col-sm-12 col-md-auto align-self-center px-0 mt-4 pt-1 text-center">
+                    <a href="/search.php" class="btn brown--default text-white py-1">Найти заведение</a>
             </div>
         </div>
     </div>
