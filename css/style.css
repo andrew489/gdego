@@ -793,6 +793,9 @@ header .login .dropdown-toggle::after {margin-left:32px;}
     position: absolute;
 }
 
+#carouselMenu img {
+  max-height: 10% !important ;
+}
 /***********menu_page***********/
 #carouselMenuPageMini {
   display: none !important;
