@@ -1,30 +1,39 @@
-#carouselHome {background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));  max-height: 900px;  }
-#carouselHome img { filter: brightness(.5);  max-height: 900px;}
+#carouselHome {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  max-height: 700px;
+}
+#carouselHome img {
+  filter: brightness(0.5);
+  max-height: 700px;
+}
 .carousel .carousel-caption {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
 }
-.carousel  .carousel-caption {
-    /*position: absolute;*/
-    /*width: 540px;*/
-    /*height: 124px;*/
-    /*left: 235px;*/
-    top: 324px;
-    /*text-align: left;*/
+.carousel .carousel-caption {
+  /*position: absolute;*/
+  /*width: 540px;*/
+  /*height: 124px;*/
+  /*left: 235px;*/
+  top: 30%;
+  max-width: 80%;
+  /*text-align: left;*/
 }
-.carousel .carousel-caption p { margin-top: 50px}
+.carousel .carousel-caption p {
+  margin-top: 50px;
+}
 .search-pannel {
-    position: relative;
-    background: #FFFFFF;
+  position: relative;
+  background: #ffffff;
 }
 .search-pannel .btn:hover {
-    color:white;
+  color: white;
 }
 @media (min-width: 768px) {
-    .search-pannel {
-        margin-top: -88px;
-    }
+  .search-pannel {
+    margin-top: -88px;
+  }
 }

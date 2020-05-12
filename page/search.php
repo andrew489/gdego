@@ -3,7 +3,7 @@
         <h2 class="d-none d-sm-block">Результаты поиска</h2>
         <h3 class="d-block d-sm-none mt-3" >Результаты поиска</h3>
         <p class="mb-4">Поиск по {{ запрос / тег }} {{ item.search }}  pariatur ex ipsum sit cillum eiusmod exercitation exercitation velit deserunt excepteur veniam nostrud.</p>
-        <ul id="tags" class="row pr-0 pl-0 pl-0 pr-0" style="list-style: none">
+        <ul id="tags" class="row " style="list-style: none">
             <?
             $tags=array(
               array('href'=>'/search.php','name'=>'tagName'),

@@ -28,7 +28,7 @@
     <div class="panel-menu">
         <div class="container">
             <div class="row align-items-center  topbar  d-none d-md-flex">
-                <div class="col-sm-12 col-md-3 select-city">
+                <div class="col-sm-12 col-md-3 p-0 select-city">
                     <span class="mdi mdi-map-marker local"></span>
                     Санкт-Петербург
                     <span class="mdi mdi-chevron-down select"></span>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 contacts pl-0">
-                    <span class="email pr-4 d-none d-sm-inline-block">
+                    <span class="email d-none d-sm-inline-block">
                         example@gdego.ru
                         <span class="mdi mdi-email-open email-icon brown-color"></span>
                     </span>

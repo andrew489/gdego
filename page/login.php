@@ -4,9 +4,9 @@
             <div class="col-sm-6 col-12">
                 <h2 class="mb-3 pb-3">Войти на сайт</h2>
                 <p class="mb-3 pb-3">Pariatur ex ipsum sit cillum eiusmod exercitation exercitation velit deserunt excepteur veniam nostrud.</p>
-                <a href="#" class="btn shadow text-white brown--default mr-sm-4 d-sm-inline-block d-flex justify-content-center"> <span class="mdi mdi-google mdi-24px mr-3"></span> <span class="pt-sm-0 pt-2">Войти с помощью google</span> </a>
-                <a href="#" class="btn bg_btn shadow mr-sm-4 mt-2 mt-sm-0 ml-sm-0 d-sm-inline-block d-flex justify-content-center"><span class="mdi mdi-twitter mdi-24px brown-color"></span></a>
-                <a href="#" class="btn bg_btn  shadow mt-2 mt-sm-0 ml-sm-0 d-sm-inline-block d-flex justify-content-center"><span class="mdi mdi-facebook mdi-24px brown-color"></span> </a>
+                <a href="#" class="btn shadow text-white brown--default mr-xl-4 d-sm-inline-block d-flex justify-content-center"> <span class="mdi mdi-google mdi-24px mr-3"></span> <span class="pt-sm-0 pt-2">Войти с помощью google</span> </a>
+                <a href="#" class="btn bg_btn shadow mr-xl-4 mt-sm-3 mt-2 mt-lg-0 ml-sm-0 d-sm-inline-block d-flex justify-content-center"><span class="mdi mdi-twitter mdi-24px brown-color"></span></a>
+                <a href="#" class="btn bg_btn  shadow mt-sm-3 mt-2 mt-lg-0 ml-sm-0 d-sm-inline-block d-flex justify-content-center"><span class="mdi mdi-facebook mdi-24px brown-color"></span> </a>
                 
                 <div class="row justify-content-center">
                     <div class="col-5 mt-4 pr-0 pl-0">
@@ -38,8 +38,9 @@
                         </label>
                         
                     </div>
-                    <button type="submit" class="btn shadow text-white brown--default">Войти2</button>
-                    <a href="#" class="brown-color float-right"><ins class="d-flex pt-2">Забыли пароль?</ins></a>
+                    <button type="submit" class="btn shadow text-white brown--default">Войти</button>
+                    <a class="btn shadow mt-sm-3 mt-md-0 text-white brown--default" href="#">Зарегестрироваться</a>
+                    <a href="#" class="brown-color float-sm-left float-right"><ins class="d-flex pt-2">Забыли пароль?</ins></a>
                 </form>
             </div><!--col-sm-6-->
 

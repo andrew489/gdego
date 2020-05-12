@@ -2,6 +2,7 @@
     <div class="container">
         <h2 class="mb-3 pb-3">Регистрация</h2>
         <p class="mb-3 pb-3">Pariatur ex ipsum sit cillum eiusmod exercitation exercitation velit deserunt excepteur veniam nostrud.</p>
+        
         <div class="row justify-content-center pt-3 mt-4">
             <div class="col-sm-10 pl-sm-3 pr-sm-3 pr-0 pl-0 bg-white ">
                 <form>

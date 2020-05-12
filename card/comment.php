@@ -1,5 +1,5 @@
 <div class="row mt-4 position-relivate">
-    <div class="col-auto d-inline-block"><?=isset($v['img'])?$v['img']:'<span class="mdi mdi-account-circle mdi-48px grey"></span>'?>
+    <div class="col-auto pt-3 pb-3 d-inline-block"><?=isset($v['img'])?$v['img']:'<span class="mdi mdi-account-circle mdi-48px grey"></span>'?>
     </div>
     <div class="col d-inline-block">
         <div class="row">

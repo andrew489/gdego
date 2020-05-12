@@ -8,7 +8,7 @@
             <div class="col-3 text-center">
                 <figure class="figure position-relative">
                     <img src="<?=$e['src']?>" alt="<?=$e['alt']?>" class="figure-img img-fluid rounded">
-                    <figcaption class="position-absolute align-items-center top shadow"><<?=$e['tag']?>><?=$e['title']?></<?=$e['tag']?>><?=$e['text']?></figcaption>
+                    <figcaption class="align-items-center top shadow"><<?=$e['tag']?>><?=$e['title']?></<?=$e['tag']?>><?=$e['text']?></figcaption>
                 </figure>
             </div>
         <? } ?>

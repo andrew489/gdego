@@ -1,5 +1,5 @@
 <?
-$array=array('control_panel'=>true, 'id'=>'carouselHome', 'text-width'=>'w-50',
+$array=array('control_panel'=>true, 'id'=>'carouselMenu', 'text-width'=>'w-50',
     'elements'=>array(
         array('img'=>'/slider/slide-1.jfif','href'=>'/catalog.php','alt'=>'...','title'=>'First slide label','tag'=>'h1','text'=>'Sint nulla aute sunt irure irure ut laborum aute fugiat culpa exercitation eu et dolore. Minim exercitation mollit irure voluptate proident culpa veniam consequat culpa mollit. Cillum sit ut nulla esse exercitation aliqua nisi proident fugiat consequat dolor Lorem nostrud.'),
         array('img'=>'/slider/slide-2.jfif','href'=>'/catalog.php','alt'=>'...','title'=>'Two slide label','tag'=>'h2','text'=>'Sint nulla aute sunt irure irure ut laborum aute fugiat culpa exercitation eu et dolore. Minim exercitation mollit irure voluptate proident culpa veniam consequat culpa mollit. Cillum sit ut nulla esse exercitation aliqua nisi proident fugiat consequat dolor Lorem nostrud.'),
