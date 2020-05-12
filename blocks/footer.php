@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-content-around">
 
-            <div class="col col-sm-5 col-md-3">
+            <div class="col col-sm-6 col-md-3">
                 <h4>Сервис и поддержка</h4>
                 <ul>
                     <li>
@@ -25,11 +25,11 @@
                     </li>
                 </ul>
             </div>
-            <div class="col col-sm-5 col-md-3">
+            <div class="col col-sm-6 col-md-3">
                 <h4>Юридическим лицам</h4>
 
             </div>
-            <div class="col col-sm-5 col-md-3">
+            <div class="col col-sm-6 col-md-3">
                 <h4>Партнерам</h4>
                 <ul>
                     <li>
@@ -46,7 +46,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col col-sm-5 col-md-3">
+            <div class="col col-sm-6 col-md-3">
                 <h4>О компании</h4>
                 <ul>
                     <li>

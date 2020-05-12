@@ -4,7 +4,7 @@
         <div class="carousel-inner">
             <? foreach ($e['imgs'] as $k=>$img){?>
                 <div class="carousel-item <?=$k==0?'active':''?>">
-                    <img id="carousel-catalog" src="<?=$img['src']?>" class="d-block w-100" style="height:112px"  alt="<?=$img['title']?>">
+                    <img class="carousel-catalog" src="<?=$img['src']?>" class="d-block w-100"  alt="<?=$img['title']?>">
                 </div>
             <? } ?>
         </div>

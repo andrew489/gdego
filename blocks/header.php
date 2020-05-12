@@ -33,7 +33,7 @@
                     Санкт-Петербург
                     <span class="mdi mdi-chevron-down select"></span>
                 </div>
-                <div class="col-md-5 col-sm-12 menu d-none d-sm-inline-block">
+                <div class="col-md-3 col-sm-12 menu d-none d-sm-inline-block">
                     <div class="btn-group" role="group">
                         <a id="btnGroupDrop1" href="#" class="btn" data-toggle="collapse" data-target="#dropdown-menu" aria-expanded="true" aria-controls="collapseOne">
                             <svg class="menu-icon brown-color" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -44,8 +44,8 @@
                         
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 contacts pl-0">
-                    <span class="email d-none d-sm-inline-block">
+                <div class="col-md-6 col-sm-12 contacts px-0">
+                    <span class="email d-none pr-4 d-sm-inline-block">
                         example@gdego.ru
                         <span class="mdi mdi-email-open email-icon brown-color"></span>
                     </span>
