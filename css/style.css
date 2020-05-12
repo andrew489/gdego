@@ -315,6 +315,14 @@ section .search-icon{
 .custom_page img {
     min-width: 255px;
 }
+.custom_page textarea:focus{
+    border: none;
+    outline: none;
+}
+.custom_page .popover-body a {
+    color: #ffffff;
+    background-color: red;
+}
 /**********registration************/
 
 .registration_card {
