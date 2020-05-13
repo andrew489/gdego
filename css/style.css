@@ -533,7 +533,6 @@ footer a:hover {
 .events {
   position: relative;
   width: 540px;
-  background: #ffffff;
   margin-right: 30px;
   height: 337px;
 }
@@ -818,9 +817,11 @@ header .login .dropdown-toggle::after {
 }
 
 #carouselMenu img {
-  max-height: 10% !important ;
+  height: 75% !important ;
 }
+
 /***********menu_page***********/
+
 #carouselMenuPageMini {
   display: none !important;
 }
@@ -831,4 +832,48 @@ header .login .dropdown-toggle::after {
     max-width: 450px;
     margin: 0 auto;
   }
+}
+
+/*****product_card*********/
+.block_figura_card {
+  height: 255px;
+}
+
+.block_figura_card img {
+  width: 255px;
+}
+
+.block_figura_card figcaption {
+  display: none;
+}
+
+.block_figura_card span {
+  display: none;
+}
+.block_figura_card div {
+  position: absolute;
+  width: 255px;
+  height: 255px;
+}
+
+.block_figura_card:hover div {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  z-index: 1;
+  position: absolute;
+}
+
+.block_figura_card:hover figcaption {
+  color: #ffffff;
+  display: block;
+  z-index: 2;
+}
+
+.block_figura_card:hover span {
+  color: #ffffff;
+  display: block;
+  z-index: 2;
 }

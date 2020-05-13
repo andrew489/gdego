@@ -39,8 +39,8 @@
                         
                     </div>
                     <button type="submit" class="btn shadow text-white brown--default">Войти</button>
-                    <a class="btn shadow mt-sm-3 mt-md-0 text-white brown--default" href="#">Зарегестрироваться</a>
-                    <a href="#" class="brown-color float-sm-left float-right"><ins class="d-flex pt-2">Забыли пароль?</ins></a>
+                    <a class="btn shadow mt-sm-3 float-right mt-md-0 text-white brown--default" href="#">Зарегестрироваться</a>
+                    <a href="#" class="brown-color"><ins class="d-flex pt-2">Забыли пароль?</ins></a>
                 </form>
             </div><!--col-sm-6-->
 

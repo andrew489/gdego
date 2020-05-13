@@ -5,10 +5,12 @@
     </div>
     <div class="row mb-4">
         <? foreach ($figura['elements'] as $e) {?>
-            <div class="col-3 text-center">
-                <figure class="figure position-relative">
-                    <img src="<?=$e['src']?>" alt="<?=$e['alt']?>" class="figure-img img-fluid rounded">
-                    <figcaption class="align-items-center top shadow"><<?=$e['tag']?>><?=$e['title']?></<?=$e['tag']?>><?=$e['text']?></figcaption>
+            <div class="col-3 block_figura_card">
+                <figure class="figure">
+                   <div></div>
+                    <img src="<?=$e['src']?>" alt="<?=$e['alt']?>" class="figure-img img-fluid rounded position-absolute">
+                    <span class=" position-relative  bookmark  mb-5 mt-4 ml-3 mt-4 mdi mdi-bookmark-outline mdi-24px brown-color"></span>
+                    <figcaption class="position-relative mt-5 shadow"><<?=$e['tag']?>><?=$e['title']?></<?=$e['tag']?>><?=$e['text']?></figcaption>
                 </figure>
             </div>
         <? } ?>
