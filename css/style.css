@@ -261,7 +261,6 @@ section .search-icon {
 }
 
 @media (min-width: 576px) {
-  
   .profile .row img {
   }
 
@@ -857,7 +856,7 @@ header .login .dropdown-toggle::after {
   z-index: 2;
 }
 
-.block_figura_card:hover div {
+.block_figura_card:hover {
   opacity: 0.8;
   -moz-opacity: 0.8;
   filter: alpha(opacity=80) black;
