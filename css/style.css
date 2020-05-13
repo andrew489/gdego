@@ -877,3 +877,6 @@ header .login .dropdown-toggle::after {
   display: block;
   z-index: 2;
 }
+.progress .active{
+  background: url('img/mdi_check.png') 50% 50% #847768;
+}
