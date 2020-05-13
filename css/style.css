@@ -850,22 +850,6 @@ header .login .dropdown-toggle::after {
 .block_figura_card span {
   display: none;
 }
-.block_figura_card div {
-  position: absolute;
-  width: 255px;
-  height: 255px;
-}
-
-.block_figura_card:hover div {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5));
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: top;
-  z-index: 1;
-  position: absolute;
-}
-
 .block_figura_card:hover figcaption {
   color: #ffffff;
   display: block;

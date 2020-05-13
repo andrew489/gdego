@@ -7,10 +7,11 @@
         <? foreach ($figura['elements'] as $e) {?>
             <div class="col-3 block_figura_card">
                 <figure class="figure">
-                   <div></div>
+                   <div class="p-2">
+                        <span class=" position-relative  bookmark  mb-5 mt-4 ml-3 mt-4 mdi mdi-bookmark-outline mdi-24px brown-color"></span>
+                        <figcaption class="position-relative ml-2 mt-5 shadow"><<?=$e['tag']?>><?=$e['title']?></<?=$e['tag']?>><?=$e['text']?></figcaption>
+                    </div>
                     <img src="<?=$e['src']?>" alt="<?=$e['alt']?>" class="figure-img img-fluid rounded position-absolute">
-                    <span class=" position-relative  bookmark  mb-5 mt-4 ml-3 mt-4 mdi mdi-bookmark-outline mdi-24px brown-color"></span>
-                    <figcaption class="position-relative mt-5 shadow"><<?=$e['tag']?>><?=$e['title']?></<?=$e['tag']?>><?=$e['text']?></figcaption>
                 </figure>
             </div>
         <? } ?>
