@@ -855,12 +855,19 @@ header .login .dropdown-toggle::after {
   display: block;
   z-index: 2;
 }
+.block_figura_card:hover div {
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  filter: alpha(opacity=80) black;
+  -khtml-opacity: 0.8;
+  background-color: #000;
+}
 
 .block_figura_card:hover span {
   color: #ffffff;
   display: block;
   z-index: 2;
 }
-.progress .active{
-  background: url('img/mdi_check.png') 50% 50% #847768;
+.progress .active {
+  background: url("img/mdi_check.png") 50% 50% #847768;
 }
