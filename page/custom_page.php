@@ -17,6 +17,7 @@
                         <p><input type="file" name="upl" multiple /></p>
                         <p class="mb-0">(1600×1200 or larger recommended, up to 10MB each)</p>
                     </div>
+
                 </form>
             </div>
         </div><!--row-->
@@ -48,19 +49,17 @@
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-xl-3 col-12 text-center mt-2">
-                        
-                        <button type="button" data-html="true" class="btn  border_img text-60" data-container="body" data-toggle="popover" data-placement="bottom" data-content=" <h3> Pro </h3> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus donec vestibulum tincidunt pretium nunc tristique sit augue. Eu eget viverra nec aliquam in. Dictum phasellus facilisis eget amet, curabitur. In lectus pharetra et, et mattis.</p> <a style= color: white;
-    background: red; class=btn bg-danger shadow text-white>GO PRO TO UNLOCK</a> "><h3>Go PRO</h3>
-                        </button>
-                            
-                        <a href="#" class="btn bg-danger shadow text-white">GO PRO TO UNLOCK</a>
+                        <div class="row no-gutters border_img text-60 pro no-gue" id="pro">
+                            <div class="col-12 align-self-center"><h3>Go PRO</h3></div>
+                        </div>
                     </div>
-                    
                 </div>
                 
             </div>
         </div> <!--row-->
-
+        <div class="d-none" id="popover">
+            <h3> Pro </h3> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus donec vestibulum tincidunt pretium nunc tristique sit augue. Eu eget viverra nec aliquam in. Dictum phasellus facilisis eget amet, curabitur. In lectus pharetra et, et mattis.</p> <a  class="btn bg-danger shadow text-white float-right mb-3">GO PRO TO UNLOCK</a>
+        </div>
         <div class="row pl-3">
             <div class="form-group col-sm-12 col-md-12 col-lg-6 col-12 d-inline-block pr-3 pl-0 pb-3 mb-3">
                 <h4 for="tags" class="mb-4 d-inline-block">Tags <span class="mdi mdi-help rounded-circle text-white"></span></h4> 
@@ -133,8 +132,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis semper vitae,
 <!-- main JS file -->
 <script src="../js/script.js"></script>
 <script>
-$(function () {
-  $('[data-toggle="popover"]').popover()
-  html: true;
-})
+
+   $(document).ready(function(){
+       var pop=0;
+    $('.pro').popover({
+            content:$('#popover').html(),
+            placement:'bottom',
+            trigger:'manual',
+            html:true
+    });      
+        $('.custom_page').on('mouseover','.pro', ()=>{
+            $('.pro').popover('show');
+            pop=1;
+        });
+        $('body').on('click','.custom_page:not(.pro), .custom_page:not(.popover)', ()=>{
+            if(pop) $('.pro').popover('hide');
+        }); 
+    });
 </script>
