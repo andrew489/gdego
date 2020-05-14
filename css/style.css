@@ -315,6 +315,15 @@ section .search-icon {
   margin-right: 32px;
 }
 
+.progress-bar {
+  background-color: #847768;
+}
+
+.active {
+  background-image: url("../img/mdi_check.png");
+  background-position: 50% 50%;
+}
+
 /**********registration_comp2************/
 
 .registration_comp .btn {
@@ -835,12 +844,29 @@ header .login .dropdown-toggle::after {
 }
 
 /*****product_card*********/
+#carouselProduct .carousel-caption {
+  width: 75% !important;
+}
+
+#carouselProduct ol {
+  bottom: 0;
+}
+
 .block_figura_card {
-  height: 255px;
+  max-width: 270px;
+  max-height: 255px;
+}
+
+@media (min-width: 1200px) {
+  .block_figura_card figure {
+    width: 255px;
+    height: 255px;
+  }
 }
 
 .block_figura_card img {
   width: 255px;
+  height: 255px;
 }
 
 .block_figura_card figcaption {
@@ -856,19 +882,19 @@ header .login .dropdown-toggle::after {
   z-index: 2;
 }
 
-.block_figura_card:hover {
-  opacity: 0.8;
-  -moz-opacity: 0.8;
-  filter: alpha(opacity=80) black;
-  -khtml-opacity: 0.8;
+.block_figura_card:hover div {
+  opacity: 0.6;
+  -moz-opacity: 0.6;
+  filter: alpha(opacity=60) black;
+  -khtml-opacity: 0.6;
   background-color: #000;
+  border-radius: 0.25rem !important;
+  z-index: 1;
+  cursor: pointer;
 }
 
 .block_figura_card:hover span {
   color: #ffffff;
   display: block;
   z-index: 2;
-}
-.progress .active {
-  background: url("img/mdi_check.png") 50% 50% #847768;
 }
