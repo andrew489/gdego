@@ -319,7 +319,7 @@ section .search-icon {
   background-color: #847768;
 }
 
-.active {
+.progress-bar .active {
   background-image: url("../img/mdi_check.png");
   background-position: 50% 50%;
 }
