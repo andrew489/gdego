@@ -66,5 +66,12 @@ $arrays=array(
                 $('.submenu').removeClass('show');
             }
         });
+        $('header').on('click','.open-header-menu',function () {
+            if($(this).data('expanded')) {
+                $('#dropdown-menu').addClass('show');
+            } else {
+                $('.submenu').removeClass('show');
+            }
+        });
     });
 </script>

@@ -1,4 +1,4 @@
-<li class="events mb-3 px-0 owl-item" style="max-width: 540px;width:540px">
+<li class="events bg-white mb-3 px-0 owl-item" style="max-width: 540px;width:540px">
     <img src="<?=$array['img']?>" class="w-100 position-absolute">
     <div class="row align-items-start text-white no-gutters p-3">
         <div class="col-auto text-white">

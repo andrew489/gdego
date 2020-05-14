@@ -17,9 +17,7 @@
                         <p><input type="file" name="upl" multiple /></p>
                         <p class="mb-0">(1600×1200 or larger recommended, up to 10MB each)</p>
                     </div>
-                    
-                
-                <h4 for="name" class="mb-3 pb-3 mt-3 pt-3 ">Additional pictures <span class="mdi mdi-help rounded-circle text-white"></span> </h4> 
+
                 </form>
             </div>
         </div><!--row-->
@@ -34,9 +32,11 @@
 
                     <div class="col-sm-6 col-md-6 col-xl-3 col-12 mt-2">
                         <div class="border_img text-60" alt=""> 
+                            
                             <ul>
                                 <!-- загрузки будут показаны здесь -->
                             </ul>
+                            
                         </div>
                     </div>
 
@@ -49,19 +49,17 @@
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-xl-3 col-12 text-center mt-2">
-                        <div class="border_img text-60" alt=""> 
-                            <h3 class="btn " data-container="border_img" data-toggle="popover" data-placement="bottom" data-content="Pro Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus donec vestibulum tincidunt pretium nunc tristique sit augue. Eu eget viverra nec aliquam in. Dictum phasellus facilisis eget amet, curabitur. In lectus pharetra et, et mattis.">
-                                Go PRO
-                            </h3>
-                            
+                        <div class="row no-gutters border_img text-60 pro no-gue" id="pro">
+                            <div class="col-12 align-self-center"><h3>Go PRO</h3></div>
                         </div>
                     </div>
-
                 </div>
                 
             </div>
         </div> <!--row-->
-
+        <div class="d-none" id="popover">
+            <h3> Pro </h3> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus donec vestibulum tincidunt pretium nunc tristique sit augue. Eu eget viverra nec aliquam in. Dictum phasellus facilisis eget amet, curabitur. In lectus pharetra et, et mattis.</p> <a  class="btn bg-danger shadow text-white float-right mb-3">GO PRO TO UNLOCK</a>
+        </div>
         <div class="row pl-3">
             <div class="form-group col-sm-12 col-md-12 col-lg-6 col-12 d-inline-block pr-3 pl-0 pb-3 mb-3">
                 <h4 for="tags" class="mb-4 d-inline-block">Tags <span class="mdi mdi-help rounded-circle text-white"></span></h4> 
@@ -82,7 +80,7 @@ sit, Lorem, ipsum, dolor, amet, consectetur</p>
                 <h4 class="mb-4">About company</h4>
                 <div class="pl-0 pr-0 mb-3 pb-3">
                     <textarea name="" id="" class="col-sm-12 col-12 " cols="140" rows="9" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis semper vitae, rhoncus accumsan lacus, sit. Integer parturient metus, in aliquam nisl praesent tempus donec pellentesque. Quis praesent nunc in a, consectetur ultrices mauris. Velit neque a cras odio eu sed pulvinar cum ut. Accumsan posuere tellus egestas sed. Praesent enim tellus lobortis consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis semper vitae, rhoncus accumsan lacus, sit. Integer parturient metus, in aliquam nisl praesent tempus donec pellentesque. Quis praesent nunc in a, consectetur ultrices mauris. Velit neque a cras odio eu sed pulvinar cum ut. Accumsan posuere tellus egestas sed. Praesent enim tellus lobortis consectetur.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis semper vitae, rhoncus accumsan lacus, sit. Integer parturient metus, in aliquam nisl praesent tempus donec pellentesque. Quis praesent nunc in a, consectetur ultrices mauris. Velit neque a cras odio eu sed pulvinar cum ut. Accumsan posuere tellus egestas sed. Praesent enim tellus lobortis consectetur."></textarea> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis semper vitae, rhoncus accumsan lacus, sit. Integer parturient metus, in aliquam nisl praesent tempus donec pellentesque. Quis praesent nunc in a, consectetur ultrices mauris. Velit neque a cras odio eu sed pulvinar cum ut. Accumsan posuere tellus egestas sed. Praesent enim tellus lobortis consectetur."></textarea>   
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-12 pr-0 pr-sm-3">
@@ -133,3 +131,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis semper vitae,
 
 <!-- main JS file -->
 <script src="../js/script.js"></script>
+<script>
+
+   $(document).ready(function(){
+       var pop=0;
+    $('.pro').popover({
+            content:$('#popover').html(),
+            placement:'bottom',
+            trigger:'manual',
+            html:true
+    });      
+        $('.custom_page').on('mouseover','.pro', ()=>{
+            $('.pro').popover('show');
+            pop=1;
+        });
+        $('body').on('click','.custom_page:not(.pro), .custom_page:not(.popover)', ()=>{
+            if(pop) $('.pro').popover('hide');
+        }); 
+    });
+</script>

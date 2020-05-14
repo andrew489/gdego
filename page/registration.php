@@ -4,20 +4,20 @@
         <p class="col-12 mb-0 mb-sm-3 pb-sm-3 pl-0">Pariatur ex ipsum sit cillum eiusmod exercitation exercitation velit deserunt excepteur veniam nostrud.</p>
 
         <div class="progress justify-content-around align-items-center mt-4" style="height:2px; overflow:initial; background-color:#66503e;">
-            <div class="progress-bar rounded-circle shadow-sm bg-white" role="progressbar" style="height: 38px; width: 38px;" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar rounded-circle align-self-center h-75 w-75" style="background:#847768;" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar rounded-circle  shadow-sm bg-white" role="progressbar" style="height: 38px; width: 38px;" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar rounded-circle active align-self-center h-75 w-75"  role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
             <div class="progress-bar rounded-circle shadow-sm bg-white" role="progressbar" style="height: 38px; width: 38px;" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar rounded-circle align-self-center h-75 w-75" style="background:#847768;" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar rounded-circle align-self-center h-75 w-75"  role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
             <div class="progress-bar rounded-circle shadow-sm bg-white" role="progressbar" style="height: 38px; width: 38px;" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar rounded-circle align-self-center h-75 w-75" style="background:#847768;" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar rounded-circle align-self-center h-75 w-75" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
             <div class="progress-bar rounded-circle shadow-sm bg-white" role="progressbar" style="height: 38px; width: 38px;" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar rounded-circle align-self-center h-75 w-75" style="background:#847768;" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar rounded-circle align-self-center h-75 w-75" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
             <div class="progress-bar rounded-circle shadow-sm bg-white" role="progressbar" style="height: 38px; width: 38px;" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar rounded-circle align-self-center h-75 w-75" style="background:#847768;" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar rounded-circle align-self-center h-75 w-75"  role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
         </div>
 
@@ -29,7 +29,7 @@
                 <p class="mb-4 pb-3">Anim sit dolor irure eiusmod nostrud ut est ullamco est. Consequat Lorem ipsum exercitation tempor eiusmod amet culpa esse nisi non tempor enim.</p>
                <div class="d-flex justify-content-between" style="">
                     <a href="#" class="btn brown--default-focus text-white shadow "><span class="mdi mdi-arrow-left pr-lg-3"></span>Назад</a>
-                    <a href="#" class="btn brown--default-focus text-white float-right shadow ">Далее <span class="mdi mdi-arrow-right pl-lg-3"></span></a>
+                    <a href="registration_comp2.php" class="btn brown--default-focus text-white float-right shadow ">Далее <span class="mdi mdi-arrow-right pl-lg-3"></span></a>
                 </div> 
                 
                 </div>
@@ -42,7 +42,7 @@
                 <p class="mb-4 pb-3">Anim sit dolor irure eiusmod nostrud ut est ullamco est. Consequat Lorem ipsum exercitation tempor eiusmod amet culpa esse nisi non tempor enim.</p>
                 <div class="d-flex justify-content-between">
                     <a href="#" class="btn text-white shadow brown--default-focus"><span class="mdi mdi-arrow-left pr-lg-3"></span>Назад</a>
-                    <a href="#" class="btn text-white float-right shadow  brown--default-focus">Далее<span class="mdi mdi-arrow-right pl-lg-3"></span></a>
+                    <a href="/registration_user.php" class="btn text-white float-right shadow  brown--default-focus">Далее<span class="mdi mdi-arrow-right pl-lg-3"></span></a>
                 </div>
                 </div>
             </div>
