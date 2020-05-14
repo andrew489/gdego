@@ -2,7 +2,7 @@
 $array=array('control_panel'=>true, 'id'=>'carouselMenu', 'text-width'=>'w-50',
     'elements'=>array(
         array('img'=>'/slider/slide-1.jfif','href'=>'/catalog.php','alt'=>'...','title'=>'First slide label','tag'=>'h1','text'=>'Sint nulla aute sunt irure irure ut laborum aute fugiat culpa exercitation eu et dolore. Minim exercitation mollit irure voluptate proident culpa veniam consequat culpa mollit. Cillum sit ut nulla esse exercitation aliqua nisi proident fugiat consequat dolor Lorem nostrud.'),
-        array('img'=>'/slider/slide-2.jfif','href'=>'/catalog.php','alt'=>'...','title'=>'Two slide label','tag'=>'h2','text'=>'Sint nulla aute sunt irure irure ut laborum aute fugiat culpa exercitation eu et dolore. Minim exercitation mollit irure voluptate proident culpa veniam consequat culpa mollit. Cillum sit ut nulla esse exercitation aliqua nisi proident fugiat consequat dolor Lorem nostrud.'),
+//        array('img'=>'/slider/slide-2.jfif','href'=>'/catalog.php','alt'=>'...','title'=>'Two slide label','tag'=>'h2','text'=>'Sint nulla aute sunt irure irure ut laborum aute fugiat culpa exercitation eu et dolore. Minim exercitation mollit irure voluptate proident culpa veniam consequat culpa mollit. Cillum sit ut nulla esse exercitation aliqua nisi proident fugiat consequat dolor Lorem nostrud.'),
     )
 );
 include('blocks/slider-main.php');?>
@@ -71,11 +71,11 @@ include('blocks/search-pannel.php'); ?>
 </ul>
 <div class="container mt-3 mt-md-5">
     <div class="row">
-        <div class="col-12 col-md-9 text-center text-md-left">
+        <div class="col-12 col-md-auto text-center text-md-left">
             <h2 class="d-none d-sm-block">Ближайшие события</h2>
             <h3 class="d-sm-none">Ближайшие события</h3>
         </div>
-        <div class="col-12 col-md-3 text-center text-md-right align-self-center">
+        <div class="col-12 col-md text-center text-md-right align-self-center">
             <a href="/catalog.php" class="brown-color text-decoration-underline pr-4">Бесплатно</a>
             <a href="/catalog.php" class="brown-color text-decoration-underline pl-4 border-left">Все события</a>
         </div>
