@@ -140,7 +140,10 @@ header .panel-menu .menu .btn {
 header .panel-menu .contacts {
   text-align: right;
 }
-header .login {float: right;cursor: pointer}
+header .login {
+  float: right;
+  cursor: pointer;
+}
 label {
   color: #211d18;
 }
@@ -152,7 +155,7 @@ p {
 /**********page 404************/
 .error_page {
   color: #ffffff;
-  background-image: url('../img/error_bg.png');
+  background-image: url("../img/error_bg.png");
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -242,8 +245,6 @@ section .search-icon {
   padding-right: 15px;
 }
 
-
-
 .stocks_mb {
   margin-bottom: 30px;
 }
@@ -259,7 +260,6 @@ section .search-icon {
   }
 }
 
-
 .search .btn {
   background: #847768;
   color: #ffffff;
@@ -272,47 +272,46 @@ section .search-icon {
   background: #66503e;
 }
 .brown--default-focus:hover {
-    background: #66503E;
+  background: #66503e;
 }
 
 /**********custom_page************/
 
 .custom_page .mdi-help {
-    background: rgba(33, 29, 24, 0.6);
-    padding: 0 3px;
-    font-size: 17px;
+  background: rgba(33, 29, 24, 0.6);
+  padding: 0 3px;
+  font-size: 17px;
 }
 
 .custom_page .mdi-border-color {
-    color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.1);
 }
 
 .custom_page .mdi-border-color:hover {
-    color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1);
 }
 
 .custom_page .border_upload {
-    border: dashed;
-    padding-top: 221px;
-    padding-bottom: 221px;
+  border: dashed;
+  padding-top: 221px;
+  padding-bottom: 221px;
 }
 
 .custom_page .border_img {
-    border: dashed;
-    min-width: 255px;
-    height: 143px;
-
+  border: dashed;
+  min-width: 255px;
+  height: 143px;
 }
 .custom_page img {
-    min-width: 255px;
+  min-width: 255px;
 }
-.custom_page textarea:focus{
-    border: none;
-    outline: none;
+.custom_page textarea:focus {
+  border: none;
+  outline: none;
 }
 .custom_page .popover-body a {
-    color: #ffffff;
-    background-color: red;
+  color: #ffffff;
+  background-color: red;
 }
 /**********registration************/
 
@@ -703,8 +702,6 @@ label:before {
   margin-right: 26px;
   position: absolute;
   border: 1px solid rgba(0, 0, 0, 0.54);
-  box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, 0.3),
-    0px 1px 0px 0px rgba(0, 0, 0, 0.54);
   border-radius: 3px;
   margin-bottom: 11px;
 }
@@ -718,6 +715,7 @@ label[type="checkbox"] span {
 input[type="radio"]:checked + label[type="radio"]:before {
   content: "\2022";
   color: #66503e;
+  border: 1px solid #66503e;
   font-size: 54px;
   text-align: center;
   line-height: 20px;
@@ -854,7 +852,6 @@ header .login .dropdown-toggle::after {
   background-color: #000;
 }
 
-
 /***********menu_page***********/
 
 #carouselMenuPageMini {
@@ -923,4 +920,75 @@ header .login .dropdown-toggle::after {
   color: #ffffff;
   display: block;
   z-index: 2;
+}
+
+/**ui_kit_elemts**/
+.ui_kit .search-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: 10px;
+  top: -25px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 15px;
+}
+
+/* Hide default HTML checkbox */
+.switch::before {
+  content: none;
+}
+
+/*slider*/
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  bottom: -3px;
+  background-color: #ffffff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.switch:before {
+}
+
+input:checked + .slider::before {
+  background-color: #66503e;
+}
+
+input:checked + .slider {
+  background-color: #847768;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }
