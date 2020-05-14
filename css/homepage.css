@@ -32,6 +32,10 @@
 .search-pannel .btn:hover {
   color: white;
 }
+#carouselMenu img {
+  height: 70% !important ;
+}
+
 @media (min-width: 768px) {
   .search-pannel {
     margin-top: -88px;

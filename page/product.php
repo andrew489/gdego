@@ -22,13 +22,13 @@ include('blocks/slider-main.php'); ?>
     </div>
 
     <div class="row pl-0 pl-md-3 mb-3">
-        <div class="col-sm-4 sidebar"><?
+        <div class="col-md-4 sidebar"><?
             $viewpoints = array(
                     array('name'=>'Обоскалов Андрей','date'=>'08.05.2020 13:25','text'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non ac, nunc, habitasse pulvinar nisl eu lobortis. Nunc quis placerat iaculis gravida nunc, fermentum quam mattis tellus.'),
                     array('name'=>'Обоскалов Андрей','date'=>'08.05.2020 13:25','text'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non ac, nunc, habitasse pulvinar nisl eu lobortis. Nunc quis placerat iaculis gravida nunc, fermentum quam mattis tellus.'),
             );
             include('blocks/viewpoint.php'); ?></div>
-        <div class="col-sm-8">
+        <div class="col-md-8 mt-3 mt-md-0">
             <div class="row"><div class="col ml-0 ml-md-3 galery">
                     <?
                     $gallery=array(

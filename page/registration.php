@@ -4,20 +4,20 @@
         <p class="col-12 mb-0 mb-sm-3 pb-sm-3 pl-0">Pariatur ex ipsum sit cillum eiusmod exercitation exercitation velit deserunt excepteur veniam nostrud.</p>
 
         <div class="progress justify-content-around align-items-center mt-4" style="height:2px; overflow:initial; background-color:#66503e;">
-            <div class="progress-bar rounded-circle shadow-sm bg-white" role="progressbar" style="height: 38px; width: 38px;" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar rounded-circle align-self-center h-75 w-75" style="background:#847768;" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar rounded-circle  shadow-sm bg-white" role="progressbar" style="height: 38px; width: 38px;" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar rounded-circle active align-self-center h-75 w-75"  role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
             <div class="progress-bar rounded-circle shadow-sm bg-white" role="progressbar" style="height: 38px; width: 38px;" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar rounded-circle align-self-center h-75 w-75" style="background:#847768;" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar rounded-circle align-self-center h-75 w-75"  role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
             <div class="progress-bar rounded-circle shadow-sm bg-white" role="progressbar" style="height: 38px; width: 38px;" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar rounded-circle align-self-center h-75 w-75" style="background:#847768;" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar rounded-circle align-self-center h-75 w-75" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
             <div class="progress-bar rounded-circle shadow-sm bg-white" role="progressbar" style="height: 38px; width: 38px;" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar rounded-circle align-self-center h-75 w-75" style="background:#847768;" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar rounded-circle align-self-center h-75 w-75" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
             <div class="progress-bar rounded-circle shadow-sm bg-white" role="progressbar" style="height: 38px; width: 38px;" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar rounded-circle align-self-center h-75 w-75" style="background:#847768;" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar rounded-circle align-self-center h-75 w-75"  role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
         </div>
 
