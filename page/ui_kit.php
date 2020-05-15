@@ -81,13 +81,13 @@
 			<li class="col-2"><a class="text-dark" href="#">Focus</a></li>
 			<li class="col-2"><a class="text-dark" href="#">Done</a></li>
 			<li class="col-2"><a class="text-dark" href="#">Error</a></li>
-			<li class="col-2"><a class="disabled " href="#">Disabled</a></li>
+			<li class="col-2"><a class="color-dis" href="#">Disabled</a></li>
 		</ul>
 	</nav>
 
 	<div class="row mt-5">
 		<div class="form-check col-2">
-			<input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleCheckbox" value="option1" checked>
+			<input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleCheckbox" value="option1">
 			<label class="form-check-label" type="checkbox" for="exampleCheckbox">
 				<span class="">Checkbox 1: false</span>
 			</label>
@@ -96,7 +96,7 @@
 		<div class="col-2"></div>
 		
 		<div class="form-check col-2">
-			<input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleCheckbox2" value="option2">
+			<input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleCheckbox2" value="option2" checked>
 			<label class="form-check-label " type="checkbox" for="exampleCheckbox2">
 				<span class="">Checkbox 2: true</span>
 			</label>
@@ -118,7 +118,7 @@
 		<div class="col-2"></div>
 
 		<div class="form-check col-2">
-			<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+			<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
 			<label class="form-check-label " type="radio" for="exampleRadios2">
 				<span class="">radio 2</span>
 			</label>
@@ -141,7 +141,7 @@
 
 		<div class="col-2">
 			<label class="switch mb-0 mt-5">
-				<input type="checkbox">
+				<input type="checkbox" checked>
 				<span class="slider round"></span>
 			</label>
 			<span class="ml-2">Switch 1: False</span>
@@ -200,39 +200,39 @@
 			<li class="col-2"><a class="text-dark" href="#">Hover</a></li>
 			<li class="col-2"><a class="text-dark" href="#">Done</a></li>
 			<li class="col-2"><a class="text-dark" href="#">Error</a></li>
-			<li class="col-2"><a class="disabled" href="#">Disabled</a></li>
+			<li class="col-2"><a class="color-dis" href="#">Disabled</a></li>
 		</ul>
 	</nav>
 
 	<div class="row mt-5">
-		<div class="col-2"><a class="link">Link 1 </a></div>
+		<div class="col-2"><a href="#" class="text-uppercase text-decoration-underline">Link 1 </a></div>
 
-		<div class="col-2"><a class="link">Link 1 </a></div>
+		<div class="col-2"><a href="#" class="text-uppercase text-decoration-underline">Link 1 </a></div>
 		
-		<div class="col-2"><a class="link 3">Link 1 </a></div>
+		<div class="col-2"><a href="#" class="text-uppercase text-decoration-underline">Link 1 </a></div>
 
 		<div class="col-2"></div>
 
-		<div class="col-2"><a class="disabled">Link 1 </a></div>
+		<div class="col-2"><a href="#" class="disabled text-uppercase">Link 1 </a></div>
 	</div>
 
 	<div class="row mt-5">
 		<div class="col-2">
-			<button class="button-1 px-2" type="button">NORMAL BUTTON</button>
+			<button class="btn px-2" type="button">NORMAL BUTTON</button>
 		</div>
 			
 		<div class="col-2">
-			<button class="button-2 px-2" type="button">NORMAL BUTTON</button>
+			<button class="btn btn-hover px-2" type="button">NORMAL BUTTON</button>
 		</div>
 
 		<div class="col-2">
-			<button class="button-3 px-2" type="button">NORMAL BUTTON</button>
+			<button class="btn btn-active px-2" type="button">NORMAL BUTTON</button>
 		</div>
 
 		<div class="col-2"></div>
 
 		<div class="col-2">
-			<button class="button-4 px-2" type="button" disabled>NORMAL BUTTON</button>
+			<button class="btn disabled px-2" type="button" disabled>NORMAL BUTTON</button>
 		</div>
 
 	</div>
@@ -254,35 +254,54 @@
 <div class="container bg-white palette p-5 mt-5 ui_kit">
 	<div class="mb-5 pt-5"> 
 		<h2 class="mb-3 font-weight-bold ">Global color</h2>
-		<div class="d-flex ">
-			<div class="rounded-circle palette-1"></div>
-			<div class="rounded-circle ml-3 palette-2"></div>
-			<div class="rounded-circle ml-3 palette-3"></div>
+		<div class="row d-flex ">
+
+            <div class="col"><div class="rounded-circle palette-1"></div></div>
+            <div class="col"><div class="rounded-circle ml-3 palette-2"></div></div>
+            <div class="col"><div class="rounded-circle ml-3 palette-3"></div></div>
+		</div>
+        <div class="row d-flex ">
+			<div class="col">class="brown--default"</div>
+			<div class="col">class="brown--active"</div>
+			<div class="col">class="brown--dis"</div>
 		</div>
 	</div>
 	<div class="mb-5 row">
 		<div class="col-9">
 			<h2 class="mb-3 font-weight-bold">Elements color</h2>
-			<div class="d-flex ">
-				<div class="rounded-circle palette-4"></div>
-				<div class="rounded-circle ml-3 palette-5"></div>
+			<div class="d-flex row">
+                <div class="col"><div class="rounded-circle palette-4"></div></div>
+                <div class="col"><div class="rounded-circle ml-3 palette-5"></div></div>
 			</div>
+            <div class="row d-flex ">
+                <div class="col">class="black-10"</div>
+                <div class="col">class="linen"</div>
+            </div>
 		</div>
 		<div class="col-3">
 			<h2 class="mb-3 font-weight-bold">Palete</h2>
-			<div class="d-flex ">
-				<div class="rounded-circle palette-6"></div>
-				<div class="rounded-circle ml-3 palette-7"></div>
+			<div class="d-flex row">
+                <div class="col"><div class="rounded-circle palette-6"></div></div>
+                    <div class="col"><div class="rounded-circle ml-3 palette-7"></div></div>
 			</div>
+            <div class="row d-flex ">
+                <div class="col">class="brown"</div>
+                <div class="col">class="danger"</div>
+            </div>
 		</div>
 	</div>
 	<div class="pb-5">
 		<h2 class="mb-3 font-weight-bold">Text color</h2>
-		<div class="d-flex ">
-			<div class="rounded-circle palette-8"></div>
-			<div class="rounded-circle ml-3 palette-9"></div>
-			<div class="rounded-circle ml-3 palette-10"></div>
+		<div class="d-flex row">
+            <div class="col"><div class="rounded-circle palette-8"></div></div>
+            <div class="col"><div class="rounded-circle ml-3 palette-9"></div></div>
+            <div class="col"><div class="rounded-circle ml-3 palette-10"></div></div>
 		</div>
+        <div class="row d-flex ">
+            <div class="col">class="text-100"</div>
+            <div class="col">class="text-60"</div>
+            <div class="col">class="text-35"</div>
+        </div>
 	</div>
 	
 </div>

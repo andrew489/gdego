@@ -5,7 +5,7 @@
             <div class="row align-items-center topnav">
                 <div class="col-auto menu d-inline-block d-md-none">
                     <div class="btn-group" role="group">
-                        <a id="btnGroupDrop1" href="#" class="btn open-header-menu" data-toggle="collapse" data-target="#dropdown-menu" aria-expanded="true" aria-controls="collapseOne">
+                        <a id="btnGroupDrop1" href="#" class="color-black text-decoration-none open-header-menu" data-toggle="collapse" data-target="#dropdown-menu" aria-expanded="true" aria-controls="collapseOne">
                             <span class="mdi mdi-menu"></span>
                         </a>
                     </div>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="col-md-3 col-sm-12 menu d-none d-sm-inline-block">
                     <div class="btn-group" role="group">
-                        <a id="btnGroupDrop1" href="#" class="btn open-header-menu" data-toggle="collapse" data-target="#dropdown-menu" aria-expanded="true" aria-controls="collapseOne">
+                        <a id="btnGroupDrop1" href="#" class="color-black open-header-menu text-decoration-none" data-toggle="collapse" data-target="#dropdown-menu" aria-expanded="true" aria-controls="collapseOne">
                             <svg class="menu-icon brown-color" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M3 6H21V8H3V6ZM3 11H17V13H3V11ZM3 16H14V18H3V16Z" fill="#847768"/>
                             </svg>

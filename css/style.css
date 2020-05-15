@@ -259,16 +259,17 @@ section .search-icon {
   .profile .row img {
   }
 }
-
+.color-dis {
+  color: #DBD0C3;
+}
 .search .btn {
-  background: #847768;
   color: #ffffff;
 }
 .search .btn a {
   color: #ffffff;
   text-decoration: none;
 }
-.btn.brown--default:hover {
+.brown--default:hover {
   background: #66503e;
 }
 .brown--default-focus:hover {
@@ -374,9 +375,15 @@ section .search-icon {
 .login_site .btn {
   text-transform: uppercase;
 }
-
-.login_site a:hover {
+a, a:hover, a:focus  {
   color: #847768;
+}
+a:active {
+  color: #66503E;
+}
+a.disabled {
+  color:#DBD0C3;
+  text-decoration: none;
 }
 
 .login_site .form-control {
@@ -515,6 +522,18 @@ footer a:hover {
   background: #847768;
   color: #ffffff;
 }
+.black-10 {
+  background: rgba(0, 0, 0, 0.1);
+}
+.linen {
+  background: #F3EEE8;
+}
+.brown {
+  background: #896D4D;
+}
+.danger {
+  background: #FF5252;
+}
 .shadow {
   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.04) !important;
   border-radius: 4px !important;
@@ -537,6 +556,9 @@ footer a:hover {
 }
 .service-small p {
   padding-top: 24px;
+}
+.text-35 {
+  color: rgba(33, 29, 24, 0.35);
 }
 .text-60 {
   color: rgba(33, 29, 24, 0.6);
@@ -812,11 +834,6 @@ input[type="checkbox"]:checked + label[type="checkbox"]:before {
   font-size: 32px;
 }
 
-a:hover,
-a:active,
-a:focus {
-  color: #847768;
-}
 
 @media (max-width: 768px) {
   .fixed-top {
@@ -922,7 +939,6 @@ header .login .dropdown-toggle::after {
   z-index: 2;
 }
 
-/****ui_kit_elemts****/
 /***grid***/
 .grid-color-1 {
   background-color: #f3eee8;
@@ -999,7 +1015,7 @@ header .login .dropdown-toggle::after {
 .switch::before {
   content: none;
 }
-
+.color-black { color: #000000 }
 /*slider*/
 .slider {
   position: absolute;
@@ -1028,8 +1044,10 @@ header .login .dropdown-toggle::after {
 .switch:before {
 }
 
+
 input:checked + .slider::before {
-  background-color: #66503e;
+  background: #66503E;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 }
 
 input:checked + .slider {
@@ -1041,10 +1059,12 @@ input:checked + .slider:before {
   -ms-transform: translateX(20px);
   transform: translateX(20px);
 }
-
+input:disabled + .slider {
+  background: rgba(0, 0, 0, 0.1);
+}
 /* Rounded sliders */
 .slider.round {
-  border-radius: 34px;
+  border-radius: 20px;
 }
 
 .slider.round:before {
@@ -1053,31 +1073,29 @@ input:checked + .slider:before {
 
 /***buttons***/
 
-.ui_kit a {
-  text-transform: uppercase;
-  color: #847768;
-}
-
-.link {
-  border-bottom: 1px solid #66503e;
-  color: #66503e;
-}
-
-.ui_kit button {
+.btn {
   color: #ffffff;
-  background-color: #66503e;
+  background: #847768;
   border: none;
   border-radius: 4px;
 }
-.button-1 {
-  background: #847768 !important;
-}
-.button-2 {
-  background: #847768 !important;
+.btn:hover {
+  background: #847768;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15),
-    0px 10px 10px rgba(0, 0, 0, 0.15);
+  0px 10px 10px rgba(0, 0, 0, 0.15);
 }
-.button-4 {
-  background: #dbd0c3 !important;
-  border-radius: 4px;
+.btn:active {
+  background: #66503E;
 }
+.btn.disabled {
+  background: #dbd0c3;
+}
+.btn-active {
+  background: #66503E;
+}
+.btn-hover {
+  background: #847768;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15),
+  0px 10px 10px rgba(0, 0, 0, 0.15)
+}
+
