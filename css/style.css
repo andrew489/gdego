@@ -1114,3 +1114,16 @@ input:disabled + .slider {
   0px 10px 10px rgba(0, 0, 0, 0.15)
 }
 
+a.list-group-item-action:not(.active) {
+  background: none !important;
+  color: #212529;
+}
+a.list-group-item-action:hover:not(.active) {
+  background: #847768 !important;
+}
+a.list-group-item-action:hover {
+  color: #ffffff !important;
+}
+a.list-group-item-action:hover {
+  color: #ffffff !important;
+}
