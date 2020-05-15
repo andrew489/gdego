@@ -1,4 +1,18 @@
 <div class="container p-5 bg-white ui_kit">
+
+<div class="row position-absolute  grid-color-1 h-100 bg-dark"></div>
+<div class="row position-absolute h-100 bg-dark"></div>
+<div class="row position-absolute h-100 bg-dark"></div>
+<div class="row position-absolute h-100 bg-dark"></div>
+<div class="row position-absolute h-100 bg-dark"></div>
+<div class="row position-absolute h-100 bg-dark"></div>
+<div class="row position-absolute h-100 bg-dark"></div>
+<div class="row position-absolute h-100 bg-dark"></div>
+<div class="row position-absolute h-100 bg-dark"></div>
+<div class="row position-absolute h-100 bg-dark"></div>
+<div class="row position-absolute h-100 bg-dark"></div>
+<div class="row position-absolute h-100 bg-dark"></div>
+
 	<div class="row  grid-color-1">
 		<div class="col grid-color-2"></div>
 		<div class="col grid-color-2"></div>
@@ -69,6 +83,7 @@
 	<div class="row grid-color-1">
 		<div class="col-12 grid-color-2"></div>
 	</div>
+
 </div>
 
 <!-- elements -->

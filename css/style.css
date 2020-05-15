@@ -938,6 +938,10 @@ header .login .dropdown-toggle::after {
   border-radius: 5px;
 }
 
+.row {
+  width: 25px;
+}
+
 /***palette***/
 .ui_kit .rounded-circle {
   width: 90px;
