@@ -1067,7 +1067,6 @@ input:checked + .slider:before {
   color: #ffffff;
   background-color: #66503e;
   border: none;
-
   border-radius: 4px;
 }
 .button-1 {
