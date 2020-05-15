@@ -927,19 +927,15 @@ header .login .dropdown-toggle::after {
 .grid-color-1 {
   background-color: #f3eee8;
   height: 50px;
-  margin:  30px 0 ;
+  margin: 30px 0;
 }
 
 .grid-color-2 {
   z-index: 1;
-  height: 50px; 
+  height: 50px;
   border: 2px solid #f3eee8;
   background: rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-}
-
-.row {
-  width: 25px;
 }
 
 /***palette***/
@@ -952,25 +948,25 @@ header .login .dropdown-toggle::after {
   background: #847768;
 }
 .palette-2 {
-  background: #66503E;
+  background: #66503e;
 }
 .palette-3 {
-  background: #DBD0C3;
+  background: #dbd0c3;
 }
 .palette-4 {
   background: rgba(0, 0, 0, 0.1);
 }
 .palette-5 {
-  background: #F3EEE8;
+  background: #f3eee8;
 }
 .palette-6 {
-  background: #896D4D;
+  background: #896d4d;
 }
 .palette-7 {
-  background: #FF5252;
+  background: #ff5252;
 }
 .palette-8 {
-  background: #211D18;
+  background: #211d18;
 }
 .palette-9 {
   background: rgba(33, 29, 24, 0.6);
@@ -988,8 +984,8 @@ header .login .dropdown-toggle::after {
   top: -25px;
   font-size: 24px;
 }
-.error{
-  color: #FF5252;
+.error {
+  color: #ff5252;
 }
 
 .switch {
@@ -1058,8 +1054,8 @@ input:checked + .slider:before {
 /***buttons***/
 
 .ui_kit a {
-text-transform: uppercase;
-color: #847768;
+  text-transform: uppercase;
+  color: #847768;
 }
 
 .link {
@@ -1067,21 +1063,22 @@ color: #847768;
   color: #66503e;
 }
 
-.ui_kit button  {
+.ui_kit button {
   color: #ffffff;
-  background-color: #66503E;
+  background-color: #66503e;
   border: none;
-  padding: 10px 10px ;
+
   border-radius: 4px;
 }
-.button-1{
+.button-1 {
   background: #847768 !important;
 }
-.button-2{
+.button-2 {
   background: #847768 !important;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15), 0px 10px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15),
+    0px 10px 10px rgba(0, 0, 0, 0.15);
 }
 .button-4 {
-  background: #DBD0C3 !important;
+  background: #dbd0c3 !important;
   border-radius: 4px;
 }
