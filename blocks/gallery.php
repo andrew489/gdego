@@ -2,7 +2,7 @@
 <ul id="<?=$gallery['id']?>">
     <? foreach ($gallery['elements'] as $k=>$e){?>
                         <li data-thumb="<?=isset($e['thumb'])?$e['thumb']:$e['src']?>">
-                            <img src="<?=$e['src']?>" alt="<?=$e['alt']?>"  class="w-100 shadow"/>
+                            <img src="<?=$e['src']?>" alt="<?=$e['alt']?>"  class="w-100 shadow rounded"/>
                         </li>
     <? } ?>
 </ul>

@@ -45,7 +45,7 @@
             </div><!--col-sm-6-->
 
             <div class="col-md-6 col-12">
-                <div class="bg_login_site d-none d-md-block"></div>
+                <div class="bg_login_site d-none d-md-block rounded"></div>
                 
             </div>
         </div> <!--row--> 

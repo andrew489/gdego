@@ -1,6 +1,7 @@
 <div class="row shadow bg-white d-flex align-items-center mb-sm-4 stocks_mb pr-sm-3 pl-0 pr-0">
-    <div class="d-flex justify-content-center col-sm-3  col-12 px-0">
-        <img src="<?=$e['src']?>" alt="<?=$e['alt']?>" class="w-100">
+    <div class="d-flex justify-content-center col-sm-3  col-12 px-sm-3 px-0 py-sm-2 py-0">
+        <img src="<?=$e['src']?>" alt="<?=$e['alt']?>" class="w-100 d-none d-sm-block rounded">
+        <img src="<?=$e['src']?>" alt="<?=$e['alt']?>" class="w-100 d-block d-sm-none rounded-top">
     </div>
     <div class="col-sm-9 col-12">
         <div class="row align-items-center">

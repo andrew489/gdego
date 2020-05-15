@@ -2,20 +2,20 @@
     <div class="container">
         <div class="row">
             <div class="form-group col-sm-12 col-md-12 col-lg-6 col-12 d-inline-block pr-3 pb-3 mb-3">
-                <h4 for="name" class="mt-5 mb-0">Company name <span class="mdi mdi-help rounded-circle text-white"></span></h4> 
+                <h4 for="name" class="mt-5 mb-0">Company name <span class="mdi mdi-help rounded-circle text-white" data-toggle="popover" data-trigger="hover"  data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente ab cumque aut nulla nisi." ></span></h4> 
                 <input type="text" class="form-control col-10 d-inline-block mt-4" name="name" id="name" placeholder="Autocomplete Company name"> <span class="mdi mdi-border-color mdi-24px  d-inline-block align-middle"></span>
             </div>
         </div> <!--row-->
 
         <div class="row pl-3 pr-3">
-            <div class="col-sm-12 text-center text-60 pl-0 pr-0">
+            <div class="col-lg-8 text-center text-60 pl-0 pr-0">
                 <form id="upload" class="border_upload" method="post" action="upload.php" enctype="multipart/form-data">
                     <div id="drop">
-                        <h1 class="mb-5 d-none d-sm-block">Перетащите файл</h1>
-                        <h2 class="mb-5 d-block d-sm-none mt-3">Перетащите файл</h2>
-                        <h4 class="mb-3">или выберите файл</h4>
-                        <p><input type="file" name="upl" multiple /></p>
-                        <p class="mb-0">(1600×1200 or larger recommended, up to 10MB each)</p>
+                        <h1 class="mb-5 mt-sm-5 pt-sm-5 pt-3 mt-3 d-none d-sm-none d-md-none d-lg-block">Перетащите файл</h1>
+                        <!-- <h2 class="mb-5 d-block d-sm-none mt-3 ">Перетащите файл</h2> -->
+                        <h4 class="mb-3 d-none d-sm-none d-md-none d-lg-block">или выберите файл</h4>
+                        <p><input type="file" name="upl" class="mt-lg-0 pt-lg-0 pt-3 mt-3" /></p>
+                        <p class="mb-0 mb-lg-5 pb-lg-5 pb-3 mb-3">(1600×1200 or larger recommended, up to 10MB each)</p>
                     </div>
 
                 </form>
@@ -24,9 +24,9 @@
         
         <div class="row pl-3 mb-3 pb-3">
             <div class="form-group pr-3 pl-0">
-                <h4 for="name" class="mb-3 pb-3 mt-3 pt-3 ">Additional pictures <span class="mdi mdi-help rounded-circle text-white"></span> </h4> 
+                <h4 for="name" class="mb-3 pb-3 mt-3 pt-3 ">Additional pictures <span class="mdi mdi-help rounded-circle text-white" data-toggle="popover" data-trigger="hover"  data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente ab cumque aut nulla nisi."></span> </h4> 
                 <div class="row ">
-                    <div class="col-sm-6 col-md-6 col-xl-3 col-12 mt-2">
+                    <div class="col-sm-6 col-md-6 col-xl-3 col-12 mt-2 text-center">
                         <img src="../img/additional_pictures1.png" alt="">
                     </div>
 
@@ -62,14 +62,14 @@
         </div>
         <div class="row pl-3">
             <div class="form-group col-sm-12 col-md-12 col-lg-6 col-12 d-inline-block pr-3 pl-0 pb-3 mb-3">
-                <h4 for="tags" class="mb-4 d-inline-block">Tags <span class="mdi mdi-help rounded-circle text-white"></span></h4> 
+                <h4 for="tags" class="mb-4 d-inline-block">Tags <span class="mdi mdi-help rounded-circle text-white" data-toggle="popover" data-trigger="hover"  data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente ab cumque aut nulla nisi."></span></h4> 
                 <input type="text" class="form-control" name="tags" id="tags" placeholder="Food, meal"> 
             </div>
         </div> <!--row-->
 
         <div class="row pl-3 ">
             <div class="form-group col-sm-12 col-md-12 col-lg-6 col-12 d-inline-block pr-3 pl-0 mb-3 pb-3">
-                <h4 for="name" class="mb-4 d-inline-block">SUGGESTED TAGS <span class="mdi mdi-help rounded-circle text-white"></span></h4> 
+                <h4 for="name" class="mb-4 d-inline-block">SUGGESTED TAGS <span class="mdi mdi-help rounded-circle text-white" data-toggle="popover" data-trigger="hover"  data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente ab cumque aut nulla nisi."></span></h4> 
                 <p class="">Lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, amet, Lorem, dolor, sit, consectetur, adipiscing, elit, ipsum, 
 sit, Lorem, ipsum, dolor, amet, consectetur</p>
             </div>
@@ -149,4 +149,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis semper vitae,
             if(pop) $('.pro').popover('hide');
         }); 
     });
+
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
 </script>

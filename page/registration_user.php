@@ -58,8 +58,8 @@
                             <input type="text" class="form-control" name="text_3" id="text_3"  >
                         </div>
                     </div>
-                    <a href="#" class="btn text-white shadow brown--default-focus"><span class="mdi mdi-arrow-left pr-3"></span>Назад</a>
-                    <a href="#" class="btn text-white float-right shadow brown--default-focus">Далее<span class="mdi mdi-arrow-right pl-3"></span></a>
+                    <a href="#" class="btn text-white shadow brown--default-focus registration_btn"><span class="mdi mdi-arrow-left pr-3"></span>Назад</a>
+                    <a href="#" class="btn text-white float-right shadow brown--default-focus registration_btn">Далее<span class="mdi mdi-arrow-right pl-3"></span></a>
                 </form>
             </div>
         

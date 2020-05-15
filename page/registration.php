@@ -28,8 +28,8 @@
                
                 <p class="mb-4 pb-3">Anim sit dolor irure eiusmod nostrud ut est ullamco est. Consequat Lorem ipsum exercitation tempor eiusmod amet culpa esse nisi non tempor enim.</p>
                <div class="d-flex justify-content-between" style="">
-                    <a href="#" class="btn brown--default-focus text-white shadow "><span class="mdi mdi-arrow-left pr-lg-3"></span>Назад</a>
-                    <a href="registration_comp2.php" class="btn brown--default-focus text-white float-right shadow ">Далее <span class="mdi mdi-arrow-right pl-lg-3"></span></a>
+                    <a href="#" class="btn brown--default-focus text-white shadow registration_btn"><span class="mdi mdi-arrow-left pr-lg-3"></span>Назад</a>
+                    <a href="registration_comp2.php" class="btn brown--default-focus text-white float-right shadow registration_btn">Далее <span class="mdi mdi-arrow-right pl-lg-3"></span></a>
                 </div> 
                 
                 </div>
@@ -41,8 +41,8 @@
                 <h2 class="mb-3 align-self-center pb-3">Пользователь</h2>
                 <p class="mb-4 pb-3">Anim sit dolor irure eiusmod nostrud ut est ullamco est. Consequat Lorem ipsum exercitation tempor eiusmod amet culpa esse nisi non tempor enim.</p>
                 <div class="d-flex justify-content-between">
-                    <a href="#" class="btn text-white shadow brown--default-focus"><span class="mdi mdi-arrow-left pr-lg-3"></span>Назад</a>
-                    <a href="/registration_user.php" class="btn text-white float-right shadow  brown--default-focus">Далее<span class="mdi mdi-arrow-right pl-lg-3"></span></a>
+                    <a href="#" class="btn text-white shadow brown--default-focus registration_btn"><span class="mdi mdi-arrow-left pr-lg-3"></span>Назад</a>
+                    <a href="/registration_user.php" class="btn text-white float-right shadow  brown--default-focus registration_btn">Далее<span class="mdi mdi-arrow-right pl-lg-3"></span></a>
                 </div>
                 </div>
             </div>

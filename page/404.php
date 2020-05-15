@@ -7,9 +7,9 @@
                 <div class="col mb-5">
                     <span>Воспользуйтесь поиском или перейдите на главную страницу сайта</span>
                 </div>
-                <div class="form col-12 pt-4">
-                    <span class="mdi mdi-magnify search-icon"></span>
-                    <input name="search" type="text" class="search col-sm-10 pl-4">
+                <div class="col-sm-12">
+                    <span class="mdi mdi-magnify mdi-24px search-icon"></span>
+                    <input name="search" type="text" class="search col-sm-12">
                 </div>
             </div>
         </div>

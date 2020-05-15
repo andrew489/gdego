@@ -164,14 +164,19 @@ p {
   background: #ffffff;
 }
 
+
+section .search {
+  padding: 8px 16px 8px 45px;
+  background: #ffffff;
+}
 section .search-icon {
-  position: relative;
+  position: absolute;
   width: 24px;
   height: 24px;
-  left: 30px;
-  top: 1px;
-  z-index: 5;
+  left: 25px;
+  top: 8px;
   color: #847768;
+  z-index: 5;
 }
 
 /**********контакты************/
@@ -282,6 +287,10 @@ section .search-icon {
     padding: 0 3px;
     font-size: 17px;
 }
+.custom_page .mdi-help:hover {
+  background: #66503e;
+}
+
 
 .custom_page .mdi-border-color {
     color: rgba(0, 0, 0, 0.1);
@@ -293,8 +302,7 @@ section .search-icon {
 
 .custom_page .border_upload {
     border: dashed;
-    padding-top: 221px;
-    padding-bottom: 221px;
+    
 }
 
 .custom_page .border_img {
@@ -309,6 +317,10 @@ section .search-icon {
 .custom_page textarea:focus{
     border: none;
     outline: none;
+}
+.custom_page textarea{
+  border: none;
+  padding-top: 10px;
 }
 .custom_page .popover-body a {
     color: #ffffff;
@@ -326,9 +338,13 @@ section .search-icon {
   padding-right: 83px;
 }
 
-.registration .btn {
+.registration_btn {
   background: #dbd0c3;
   text-transform: uppercase;
+}
+
+.registration_btn:hover {
+  background: #847768;
 }
 
 .right-button {
@@ -346,25 +362,8 @@ section .search-icon {
 
 /**********registration_comp2************/
 
-.registration_comp .btn {
-  background: #dbd0c3;
-  text-transform: uppercase;
-}
-.registration_comp .btn:hover {
-  background: #847768;
-}
 .registration_comp form {
   padding: 32px;
-}
-
-/**********registration_user************/
-
-.registration_user .btn {
-  background: #dbd0c3;
-  text-transform: uppercase;
-}
-.registration_user .btn:hover {
-  background: #847768;
 }
 
 /**********login************/
