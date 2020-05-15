@@ -1,18 +1,4 @@
 <div class="container p-5 bg-white ui_kit">
-
-<div class="row position-absolute  grid-color-1 h-100 bg-dark"></div>
-<div class="row position-absolute h-100 bg-dark"></div>
-<div class="row position-absolute h-100 bg-dark"></div>
-<div class="row position-absolute h-100 bg-dark"></div>
-<div class="row position-absolute h-100 bg-dark"></div>
-<div class="row position-absolute h-100 bg-dark"></div>
-<div class="row position-absolute h-100 bg-dark"></div>
-<div class="row position-absolute h-100 bg-dark"></div>
-<div class="row position-absolute h-100 bg-dark"></div>
-<div class="row position-absolute h-100 bg-dark"></div>
-<div class="row position-absolute h-100 bg-dark"></div>
-<div class="row position-absolute h-100 bg-dark"></div>
-
 	<div class="row  grid-color-1">
 		<div class="col grid-color-2"></div>
 		<div class="col grid-color-2"></div>
@@ -232,21 +218,21 @@
 
 	<div class="row mt-5">
 		<div class="col-2">
-			<button class="button-1" type="button">NORMAL BUTTON</button>
+			<button class="button-1 px-2" type="button">NORMAL BUTTON</button>
 		</div>
 			
 		<div class="col-2">
-			<button class="button-2" type="button">NORMAL BUTTON</button>
+			<button class="button-2 px-2" type="button">NORMAL BUTTON</button>
 		</div>
 
 		<div class="col-2">
-			<button class="button-3" type="button">NORMAL BUTTON</button>
+			<button class="button-3 px-2" type="button">NORMAL BUTTON</button>
 		</div>
 
 		<div class="col-2"></div>
 
 		<div class="col-2">
-			<button class="button-4" type="button" disabled>NORMAL BUTTON</button>
+			<button class="button-4 px-2" type="button" disabled>NORMAL BUTTON</button>
 		</div>
 
 	</div>
