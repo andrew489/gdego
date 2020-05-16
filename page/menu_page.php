@@ -30,7 +30,7 @@
             item:3,
             loop:true,
             controls:false,
-            slideMove:2,
+            slideMove:1,
             currentPagerPosition:'middle',
             easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
             speed:600,
